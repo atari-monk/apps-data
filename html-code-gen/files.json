@@ -1,0 +1,18 @@
+{
+    "deploy-voting-app": {
+        "JsonPath": "C:\\atari-monk\\Apps.Data\\html-code-gen\\In\\deploy-voting-app.json",
+        "HtmlPath": "C:\\atari-monk\\Apps.Data\\html-code-gen\\Out\\deploy-voting-app.html"
+    },
+    "azure-sql-db": {
+        "JsonPath": "C:\\atari-monk\\Apps.Data\\html-code-gen\\In\\azure-sql-db.json",
+        "HtmlPath": "C:\\atari-monk\\Apps.Data\\html-code-gen\\Out\\azure-sql-db.html"
+    },
+    "ssms-connect-az-sql-db": {
+        "JsonPath": "C:\\atari-monk\\Apps.Data\\html-code-gen\\In\\ssms-connect-az-sql-db.json",
+        "HtmlPath": "C:\\atari-monk\\Apps.Data\\html-code-gen\\Out\\ssms-connect-az-sql-db.html"
+    },
+    "cpp-compiler": {
+        "JsonPath": "C:\\atari-monk\\Apps.Data\\html-code-gen\\In\\cpp-compiler.json",
+        "HtmlPath": "C:\\atari-monk\\Apps.Data\\html-code-gen\\Out\\cpp-compiler.html"
+    }
+}
