@@ -11,6 +11,10 @@
         "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\ssms-connect-az-sql-db.json",
         "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\ssms-connect-az-sql-db.html"
     },
+    "db-restore-az-sql": {
+        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\db-restore-az-sql.json",
+        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\db-restore-az-sql.html"
+    },
     "cpp-compiler": {
         "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\cpp-compiler.json",
         "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\cpp-compiler.html"
