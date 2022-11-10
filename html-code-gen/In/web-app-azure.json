@@ -33,10 +33,12 @@
                 "CodeParams": [
                     {
                         "Name": "az-web-app-db-tutorial-rg",
+                        "Desc": "proj resource group name",
                         "CssClass": "mark-rg"
                     },
                     {
                         "Name": "swedencentral",
+                        "Desc": "location",
                         "CssClass": "mark-location"
                     }
                 ]
@@ -52,16 +54,18 @@
                 "CodeParams": [
                     {
                         "Name": "az-web-app-db-tutorial-plan",
+                        "Desc": "App Service plan name",
                         "CssClass": "mark-name"
                     },
                     {
                         "Name": "az-web-app-db-tutorial-rg",
+                        "Desc": "proj resource group name",
                         "CssClass": "mark-rg"
                     },
                     {
                         "Name": "F1",
                         "Desc": "Free az plan tier",
-                        "CssClass": "mark-name"
+                        "CssClass": "mark-option"
                     }
                 ]
             }
@@ -75,7 +79,8 @@
                 "CodeFormat": "az webapp list-runtimes --os linux --output table",
                 "CodeParams": [
                     {
-                        "Desc": "for Linux"
+                        "Desc": "for Linux",
+                        "CssClass": "mark-desc"
                     }
                 ]
             },
@@ -84,7 +89,8 @@
                 "CodeFormat": "az webapp list-runtimes --os windows --output table",
                 "CodeParams": [
                     {
-                        "Desc": "for Windows"
+                        "Desc": "for Windows",
+                        "CssClass": "mark-desc"
                     }
                 ]
             }
