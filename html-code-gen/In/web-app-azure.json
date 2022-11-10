@@ -280,7 +280,7 @@
                 "CodeFormat": "https://<app-name>.scm.azurewebsites.net",
                 "CodeParams": [
                     {
-                        "Desc": "For apps deployed in Free, Shared, Basic, Standard, and Premium App Service plans",
+                        "Desc": "For apps deployed in Free, Shared, Basic, Standard, and Premium App Service plans"
                     }
                 ]
             }
