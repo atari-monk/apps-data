@@ -14,5 +14,229 @@
                 ]
             }
         ]
-    }
+    },
+    {
+        "Title": "Open Code powershell (shell set on folder)"
+    },
+    {
+        "Title": "Clone example repo.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "git clone https:\/\/github.com\/Azure-Samples\/msdocs-app-service-sqldb-dotnetcore.git"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "cd msdocs-app-service-sqldb-dotnetcore"
+            }
+        ]
+    },
+    {
+        "Title": "Login to Azure CLI",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "az login"
+            }
+        ]
+    },
+    {
+        "Title": "Create resource group for the project.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "az group create --name {0} --location {1}",
+                "CodeParams": [
+                    {
+                        "Name": "az-web-app-db-tutorial-rg",
+                        "CssClass": "mark-rg"
+                    },
+                    {
+                        "Name": "swedencentral",
+                        "CssClass": "mark-location"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Create an App Service plan.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "az appservice plan create --name {0} --resource-group {1} --sku {2}",
+                "CodeParams": [
+                    {
+                        "Name": "az-web-app-db-tutorial-plan",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "az-web-app-db-tutorial-rg",
+                        "CssClass": "mark-rg"
+                    },
+                    {
+                        "Name": "F1",
+                        "Desc": "Free az plan tier",
+                        "CssClass": "mark-name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "See available runtimes for your app. To choose one. (optional)",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "az webapp list-runtimes --os linux --output table",
+                "CodeParams": [
+                    {
+                        "Desc": "for Linux"
+                    }
+                ]
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "az webapp list-runtimes --os windows --output table",
+                "CodeParams": [
+                    {
+                        "Desc": "for Windows"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Create the App Service web app.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "az webapp create --name {0} --runtime \"{1}\" --plan {2} --resource-group {3}",
+                "CodeParams": [
+                    {
+                        "Name": "az-web-app-db-tutorial",
+                        "Desc": "Generates domain name https://<app service name>.azurewebsites.com",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "DOTNET|6.0",
+                        "Desc": "runtime",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "az-web-app-db-tutorial-plan",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "az-web-app-db-tutorial-rg",
+                        "CssClass": "mark-rg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Create an Azure SQL Server to host the database<br>This was done in tutorial <a href=\"./azure-sql-db.html\">Azure SQL Database</a>"
+    },
+    {
+        "Title": "Create db on server.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "az sql db create --resource-group {0} --server {1} --name {2}",
+                "CodeParams": [
+                    {
+                        "Name": "atari-monk-az-sql-rg",
+                        "Desc": "rg already created in az for sql server",
+                        "CssClass": "mark-rg"
+                    },
+                    {
+                        "Name": "atari-monk-az-sql-server",
+                        "Desc": "server already created in az",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "coreDb",
+                        "Desc": "name of db",
+                        "CssClass": "mark-name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Connect the App to the Database.<br>When prompted, provide the administrator username and password for the SQL database.<br>Copy this connection string value from the output for later.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "az webapp connection create sql --resource-group {0} --name {1} --target-resource-group {2} --server {3} --database {4} --query {5}",
+                "CodeParams": [
+                    {
+                        "Name": "az-web-app-db-tutorial-rg",
+                        "Desc": "rg witch contains the web app",
+                        "CssClass": "mark-rg"
+                    },
+                    {
+                        "Name": "az-web-app-db-tutorial",
+                        "Desc": "web app name",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "atari-monk-az-sql-server",
+                        "Desc": "rg witch contains the sql server",
+                        "CssClass": "mark-rg"
+                    },
+                    {
+                        "Name": "atari-monk-az-sql-server",
+                        "Desc": "server already created in az",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "coreDb",
+                        "Desc": "name of db",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "configurations",
+                        "Desc": "To see the entirety of the command output, drop the --query in the command",
+                        "CssClass": "mark-name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Generate the Database Schema."
+    },
+    {
+        "Title": "Set up a firewall rule on the SQL database server.<br>This was done in tutorial <a href=\"./azure-sql-db.html\">Azure SQL Database</a>"
+    },
+    {
+        "Title": "Update the appsettings.json of app, with generated connection string.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "\"AZURE_SQL_CONNECTIONSTRING\": \"Data Source=<your-server-name>.database.windows.net,1433;Initial Catalog=coreDb;User ID=<username>;Password=<password>\"",
+                "CodeParams": [
+                    {
+                        "Desc": "Example connextion string"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Update app setup in program.cs (older apps may have it in Startup.cs)",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "services.AddDbContext<MyDatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString(\"AZURE_SQL_CONNECTIONSTRING\")));",
+                "CodeParams": [
+                    {
+                        "Desc": "set connection string name to use with ef core context and sql server"
+                    }
+                ]
+            }
+        ]
+    },
 ]
