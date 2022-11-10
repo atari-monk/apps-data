@@ -50,7 +50,7 @@
         "Codes": [
             {
                 "Nr": 5,
-                "CodeFormat": "az appservice plan create --name {0} --resource-group {1} --sku {2}",
+                "CodeFormat": "az appservice plan create --name {0} --resource-group {1} --is-linux --sku {2}",
                 "CodeParams": [
                     {
                         "Name": "az-web-app-db-tutorial-plan",
@@ -109,7 +109,7 @@
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "DOTNET|6.0",
+                        "Name": "DOTNETCORE:6.0",
                         "Desc": "runtime",
                         "CssClass": "mark-name"
                     },
@@ -155,11 +155,11 @@
         ]
     },
     {
-        "Title": "Connect the App to the Database.<br>When prompted, provide the administrator username and password for the SQL database.<br>Copy this connection string value from the output for later.",
+        "Title": "Connect the App to the Database.<br>When prompted, provide the login and password you used when creating azure sql server.<br>(Chars of password are not visible at all, but paste works)<br>Copy this connection string value from the output for later.",
         "Codes": [
             {
                 "Nr": 10,
-                "CodeFormat": "az webapp connection create sql --resource-group {0} --name {1} --target-resource-group {2} --server {3} --database {4} --query {5}",
+                "CodeFormat": "az webapp connection create sql --resource-group {0} --name {1} --target-resource-group {2} --server {3} --database {4} --client-type {5} --connection {6} --query {7}",
                 "CodeParams": [
                     {
                         "Name": "az-web-app-db-tutorial-rg",
@@ -172,7 +172,7 @@
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "atari-monk-az-sql-server",
+                        "Name": "atari-monk-az-sql-rg",
                         "Desc": "rg witch contains the sql server",
                         "CssClass": "mark-rg"
                     },
@@ -187,9 +187,19 @@
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "configurations",
-                        "Desc": "To see the entirety of the command output, drop the --query in the command",
+                        "Name": "dotnet",
+                        "Desc": "client type",
+                        "CssClass": "mark-option"
+                    },
+                    {
+                        "Name": "sql-9f108",
+                        "Desc": "connection name",
                         "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "configurations",
+                        "Desc": "removing --query param will show more logs",
+                        "CssClass": "mark-option"
                     }
                 ]
             }
