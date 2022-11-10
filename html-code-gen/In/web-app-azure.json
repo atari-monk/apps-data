@@ -1,22 +1,6 @@
 [
     {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Title": "Open Code powershell (shell set on folder)"
+        "Title": "Open Code powershell (shell set on folder Code)"
     },
     {
         "Title": "Clone example repo.",
@@ -35,7 +19,7 @@
         "Title": "Login to Azure CLI",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 3,
                 "CodeFormat": "az login"
             }
         ]
@@ -44,7 +28,7 @@
         "Title": "Create resource group for the project.",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 4,
                 "CodeFormat": "az group create --name {0} --location {1}",
                 "CodeParams": [
                     {
@@ -63,7 +47,7 @@
         "Title": "Create an App Service plan.",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 5,
                 "CodeFormat": "az appservice plan create --name {0} --resource-group {1} --sku {2}",
                 "CodeParams": [
                     {
@@ -87,7 +71,7 @@
         "Title": "See available runtimes for your app. To choose one. (optional)",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 6,
                 "CodeFormat": "az webapp list-runtimes --os linux --output table",
                 "CodeParams": [
                     {
@@ -96,7 +80,7 @@
                 ]
             },
             {
-                "Nr": 2,
+                "Nr": 7,
                 "CodeFormat": "az webapp list-runtimes --os windows --output table",
                 "CodeParams": [
                     {
@@ -110,7 +94,7 @@
         "Title": "Create the App Service web app.",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 8,
                 "CodeFormat": "az webapp create --name {0} --runtime \"{1}\" --plan {2} --resource-group {3}",
                 "CodeParams": [
                     {
@@ -142,7 +126,7 @@
         "Title": "Create db on server.",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 9,
                 "CodeFormat": "az sql db create --resource-group {0} --server {1} --name {2}",
                 "CodeParams": [
                     {
@@ -168,7 +152,7 @@
         "Title": "Connect the App to the Database.<br>When prompted, provide the administrator username and password for the SQL database.<br>Copy this connection string value from the output for later.",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 10,
                 "CodeFormat": "az webapp connection create sql --resource-group {0} --name {1} --target-resource-group {2} --server {3} --database {4} --query {5}",
                 "CodeParams": [
                     {
@@ -215,7 +199,7 @@
         "Title": "Update the appsettings.json of app, with generated connection string.",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 11,
                 "CodeFormat": "\"AZURE_SQL_CONNECTIONSTRING\": \"Data Source=<your-server-name>.database.windows.net,1433;Initial Catalog=coreDb;User ID=<username>;Password=<password>\"",
                 "CodeParams": [
                     {
@@ -229,7 +213,7 @@
         "Title": "Update app setup in program.cs (older apps may have it in Startup.cs)",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 12,
                 "CodeFormat": "services.AddDbContext<MyDatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString(\"AZURE_SQL_CONNECTIONSTRING\")));",
                 "CodeParams": [
                     {
@@ -239,4 +223,119 @@
             }
         ]
     },
+    {
+        "Title": "From a local terminal applay migrations.",
+        "Codes": [
+            {
+                "Nr": 13,
+                "CodeFormat": "cd msdocs-app-service-sqldb-dotnetcore\\DotNetCoreSqlDb",
+                "CodeParams": [
+                    {
+                        "Desc": "Assuming root \"C:\\atari-monk\\Code\""
+                    }
+                ]
+            },
+            {
+                "Nr": 14,
+                "CodeFormat": "dotnet ef database update",
+                "CodeParams": [
+                    {
+                        "Desc": "run migrations"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "error Client with IP address xxx.xxx.xxx.xxx is not allowed to access the server<br>means your Azure firewall rule is incorrect<br>use ip from error to update it."
+    },
+    {
+        "Title": "Deploy to the App Service with VS Code<br>Install Azure Account and Azure App Service extensions<br>Login with Account extension<br>",
+        "Codes": [
+            {
+                "Nr": 15,
+                "CodeFormat": "dotnet publish -c Release",
+                "CodeParams": [
+                    {
+                        "Desc": "deployable publish folder for the app in the bin/release/publish directory"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Right-click on publish folder and select Deploy to Web App."
+    },
+    {
+        "Title": "Test web app in the browser."
+    },
+    {
+        "Title": "Test web app in the browser.<br>In Azure Portal, Browse link at the top of the App Service overview page<br>"
+    },
+    {
+        "Title": "Use Kudu tool to get info on deployment.",
+        "Codes": [
+            {
+                "Nr": 16,
+                "CodeFormat": "https://<app-name>.scm.azurewebsites.net",
+                "CodeParams": [
+                    {
+                        "Desc": "For apps deployed in Free, Shared, Basic, Standard, and Premium App Service plans",
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Configure and Stream Application Logs.<br>To filesystem or console.",
+        "Codes": [
+            {
+                "Nr": 17,
+                "CodeFormat": "az webapp log config --web-server-logging 'filesystem' --name {0} --resource-group {1}",
+                "CodeParams": [
+                    {
+                        "Name": "az-web-app-db-tutorial",
+                        "Desc": "web app service name",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "az-web-app-db-tutorial-rg",
+                        "CssClass": "mark-rg"
+                    }
+                ]
+            },
+            {
+                "Nr": 18,
+                "CodeFormat": "az webapp log tail --name {0} --resource-group {1}",
+                "CodeParams": [
+                    {
+                        "Name": "az-web-app-db-tutorial",
+                        "Desc": "web app service name",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "az-web-app-db-tutorial-rg",
+                        "Desc": "proj resource group name",
+                        "CssClass": "mark-rg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Clean up resources",
+        "Codes": [
+            {
+                "Nr": 19,
+                "CodeFormat": "az group delete --name {0}",
+                "CodeParams": [
+                    {
+                        "Name": "az-web-app-db-tutorial-rg",
+                        "Desc": "proj resource group name",
+                        "CssClass": "mark-rg"
+                    }
+                ]
+            }
+        ]
+    }
 ]
