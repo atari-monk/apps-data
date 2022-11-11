@@ -16,6 +16,9 @@
         ]
     },
     {
+        "Title": "Create new repo on github. Named to-do-web-app. Copy project there and commit."
+    },
+    {
         "Title": "Login to Azure CLI",
         "Codes": [
             {
@@ -25,21 +28,52 @@
         ]
     },
     {
-        "Title": "Create resource group for the project.",
+        "Title": "Create resource group for to-do-app project.",
         "Codes": [
             {
                 "Nr": 4,
-                "CodeFormat": "az group create --name {0} --location {1}",
+                "CodeFormat": "az group create --name {0} --location {1} --tags {2}",
                 "CodeParams": [
                     {
-                        "Name": "az-web-app-db-tutorial-rg",
-                        "Desc": "proj resource group name",
+                        "Name": "to-do-web-app-rg",
+                        "Desc": "resource group",
                         "CssClass": "mark-rg"
                     },
                     {
                         "Name": "swedencentral",
                         "Desc": "location",
                         "CssClass": "mark-location"
+                    },
+                    {
+                        "Name": "to-do-web-app",
+                        "Desc": "description tag",
+                        "CssClass": "mark-tag"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Create resource group App Service plans.",
+        "Codes": [
+            {
+                "Nr": 5,
+                "CodeFormat": "az group create --name {0} --location {1} --tags {2}",
+                "CodeParams": [
+                    {
+                        "Name": "atari-monk-appservice-plans-rg",
+                        "Desc": "resource group",
+                        "CssClass": "mark-rg"
+                    },
+                    {
+                        "Name": "swedencentral",
+                        "Desc": "location",
+                        "CssClass": "mark-location"
+                    },
+                    {
+                        "Name": "appservice-plans rg",
+                        "Desc": "description tag",
+                        "CssClass": "mark-tag"
                     }
                 ]
             }
@@ -49,17 +83,17 @@
         "Title": "Create an App Service plan.",
         "Codes": [
             {
-                "Nr": 5,
+                "Nr": 6,
                 "CodeFormat": "az appservice plan create --name {0} --resource-group {1} --is-linux --sku {2}",
                 "CodeParams": [
                     {
-                        "Name": "az-web-app-db-tutorial-plan",
+                        "Name": "atari-monk-appservice-plan1",
                         "Desc": "App Service plan name",
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "az-web-app-db-tutorial-rg",
-                        "Desc": "proj resource group name",
+                        "Name": "atari-monk-appservice-plans-rg",
+                        "Desc": "resource group",
                         "CssClass": "mark-rg"
                     },
                     {
@@ -75,7 +109,7 @@
         "Title": "See available runtimes for your app. To choose one. (optional)",
         "Codes": [
             {
-                "Nr": 6,
+                "Nr": 7,
                 "CodeFormat": "az webapp list-runtimes --os linux --output table",
                 "CodeParams": [
                     {
@@ -85,7 +119,7 @@
                 ]
             },
             {
-                "Nr": 7,
+                "Nr": 8,
                 "CodeFormat": "az webapp list-runtimes --os windows --output table",
                 "CodeParams": [
                     {
@@ -100,11 +134,11 @@
         "Title": "Create the App Service web app.",
         "Codes": [
             {
-                "Nr": 8,
+                "Nr": 9,
                 "CodeFormat": "az webapp create --name {0} --runtime \"{1}\" --plan {2} --resource-group {3}",
                 "CodeParams": [
                     {
-                        "Name": "az-web-app-db-tutorial",
+                        "Name": "to-do-web-app",
                         "Desc": "Generates domain name https://<app service name>.azurewebsites.com",
                         "CssClass": "mark-name"
                     },
@@ -114,11 +148,12 @@
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "az-web-app-db-tutorial-plan",
+                        "Name": "atari-monk-appservice-plan1",
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "az-web-app-db-tutorial-rg",
+                        "Name": "to-do-web-app-rg",
+                        "Desc": "resource group",
                         "CssClass": "mark-rg"
                     }
                 ]
@@ -132,17 +167,17 @@
         "Title": "Create db on server.",
         "Codes": [
             {
-                "Nr": 9,
+                "Nr": 10,
                 "CodeFormat": "az sql db create --resource-group {0} --server {1} --name {2}",
                 "CodeParams": [
                     {
-                        "Name": "atari-monk-az-sql-rg",
-                        "Desc": "rg already created in az for sql server",
+                        "Name": "az-sql-db1-rg",
+                        "Desc": "rg of sql server",
                         "CssClass": "mark-rg"
                     },
                     {
-                        "Name": "atari-monk-az-sql-server",
-                        "Desc": "server already created in az",
+                        "Name": "atari-monk-sql-server1",
+                        "Desc": "az sql server name",
                         "CssClass": "mark-name"
                     },
                     {
@@ -158,26 +193,26 @@
         "Title": "Connect the App to the Database.<br>When prompted, provide the login and password you used when creating azure sql server.<br>(Chars of password are not visible at all, but paste works)<br>Copy this connection string value from the output for later.",
         "Codes": [
             {
-                "Nr": 10,
+                "Nr": 11,
                 "CodeFormat": "az webapp connection create sql --resource-group {0} --name {1} --target-resource-group {2} --server {3} --database {4} --client-type {5} --connection {6} --query {7}",
                 "CodeParams": [
                     {
-                        "Name": "az-web-app-db-tutorial-rg",
+                        "Name": "to-do-web-app-rg",
                         "Desc": "rg witch contains the web app",
                         "CssClass": "mark-rg"
                     },
                     {
-                        "Name": "az-web-app-db-tutorial",
+                        "Name": "to-do-web-app",
                         "Desc": "web app name",
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "atari-monk-az-sql-rg",
+                        "Name": "az-sql-db1-rg",
                         "Desc": "rg witch contains the sql server",
                         "CssClass": "mark-rg"
                     },
                     {
-                        "Name": "atari-monk-az-sql-server",
+                        "Name": "atari-monk-sql-server1",
                         "Desc": "server already created in az",
                         "CssClass": "mark-name"
                     },
@@ -206,16 +241,13 @@
         ]
     },
     {
-        "Title": "Generate the Database Schema."
-    },
-    {
         "Title": "Set up a firewall rule on the SQL database server.<br>This was done in tutorial <a href=\"./azure-sql-db.html\">Azure SQL Database</a>"
     },
     {
         "Title": "Update the appsettings.json of app, with generated connection string.",
         "Codes": [
             {
-                "Nr": 11,
+                "Nr": 12,
                 "CodeFormat": "\"AZURE_SQL_CONNECTIONSTRING\": \"Data Source=<your-server-name>.database.windows.net,1433;Initial Catalog=coreDb;User ID=<username>;Password=<password>\"",
                 "CodeParams": [
                     {
@@ -229,7 +261,7 @@
         "Title": "Update app setup in program.cs (older apps may have it in Startup.cs)",
         "Codes": [
             {
-                "Nr": 12,
+                "Nr": 13,
                 "CodeFormat": "services.AddDbContext<MyDatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString(\"AZURE_SQL_CONNECTIONSTRING\")));",
                 "CodeParams": [
                     {
@@ -243,7 +275,7 @@
         "Title": "From a local terminal applay migrations.",
         "Codes": [
             {
-                "Nr": 13,
+                "Nr": 14,
                 "CodeFormat": "cd DotNetCoreSqlDb",
                 "CodeParams": [
                     {
@@ -252,7 +284,7 @@
                 ]
             },
             {
-                "Nr": 14,
+                "Nr": 15,
                 "CodeFormat": "dotnet tool install -g dotnet-ef",
                 "CodeParams": [
                     {
@@ -261,7 +293,7 @@
                 ]
             },
             {
-                "Nr": 15,
+                "Nr": 16,
                 "CodeFormat": "dotnet tool update -g dotnet-ef",
                 "CodeParams": [
                     {
@@ -270,7 +302,7 @@
                 ]
             },
             {
-                "Nr": 16,
+                "Nr": 17,
                 "CodeFormat": "dotnet ef migrations add InitialCreate",
                 "CodeParams": [
                     {
@@ -279,7 +311,7 @@
                 ]
             },
             {
-                "Nr": 17,
+                "Nr": 18,
                 "CodeFormat": "dotnet ef database update",
                 "CodeParams": [
                     {
@@ -296,7 +328,7 @@
         "Title": "Deploy to the App Service with VS Code<br>Install Azure Account and Azure App Service extensions<br>Login with Account extension<br>",
         "Codes": [
             {
-                "Nr": 18,
+                "Nr": 19,
                 "CodeFormat": "dotnet publish -c Release",
                 "CodeParams": [
                     {
@@ -310,16 +342,13 @@
         "Title": "Right-click on publish folder and select Deploy to Web App."
     },
     {
-        "Title": "Test web app in the browser."
-    },
-    {
-        "Title": "Test web app in the browser.<br>In Azure Portal, Browse link at the top of the App Service overview page<br>"
+        "Title": "Test web app in the browser.<br>In Azure Portal, Browse link at the top of the App Service overview page"
     },
     {
         "Title": "Use Kudu tool to get info on deployment.",
         "Codes": [
             {
-                "Nr": 19,
+                "Nr": 20,
                 "CodeFormat": "https://<app-name>.scm.azurewebsites.net",
                 "CodeParams": [
                     {
@@ -333,32 +362,33 @@
         "Title": "Configure and Stream Application Logs.<br>To filesystem or console.",
         "Codes": [
             {
-                "Nr": 20,
+                "Nr": 21,
                 "CodeFormat": "az webapp log config --web-server-logging 'filesystem' --name {0} --resource-group {1}",
                 "CodeParams": [
                     {
-                        "Name": "az-web-app-db-tutorial",
+                        "Name": "to-do-web-app",
                         "Desc": "web app service name",
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "az-web-app-db-tutorial-rg",
+                        "Name": "to-do-web-app-rg",
+                        "Desc": "resource group",
                         "CssClass": "mark-rg"
                     }
                 ]
             },
             {
-                "Nr": 21,
+                "Nr": 22,
                 "CodeFormat": "az webapp log tail --name {0} --resource-group {1}",
                 "CodeParams": [
                     {
-                        "Name": "az-web-app-db-tutorial",
+                        "Name": "to-do-web-app",
                         "Desc": "web app service name",
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "az-web-app-db-tutorial-rg",
-                        "Desc": "proj resource group name",
+                        "Name": "to-do-web-app-rg",
+                        "Desc": "resource group",
                         "CssClass": "mark-rg"
                     }
                 ]
@@ -366,15 +396,26 @@
         ]
     },
     {
-        "Title": "Clean up resources",
+        "Title": "Clean up resources. App rg and plan rg.",
         "Codes": [
             {
-                "Nr": 22,
+                "Nr": 23,
                 "CodeFormat": "az group delete --name {0}",
                 "CodeParams": [
                     {
-                        "Name": "az-web-app-db-tutorial-rg",
-                        "Desc": "proj resource group name",
+                        "Name": "to-do-web-app-rg",
+                        "Desc": "resource group",
+                        "CssClass": "mark-rg"
+                    }
+                ]
+            },
+            {
+                "Nr": 24,
+                "CodeFormat": "az group delete --name {0}",
+                "CodeParams": [
+                    {
+                        "Name": "atari-monk-appservice-plans-rg",
+                        "Desc": "resource group",
                         "CssClass": "mark-rg"
                     }
                 ]
