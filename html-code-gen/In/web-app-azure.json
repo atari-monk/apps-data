@@ -244,19 +244,46 @@
         "Codes": [
             {
                 "Nr": 13,
-                "CodeFormat": "cd msdocs-app-service-sqldb-dotnetcore\\DotNetCoreSqlDb",
+                "CodeFormat": "cd DotNetCoreSqlDb",
                 "CodeParams": [
                     {
-                        "Desc": "Assuming root \"C:\\atari-monk\\Code\""
+                        "Desc": "you need to be in project with migrations folder"
                     }
                 ]
             },
             {
                 "Nr": 14,
+                "CodeFormat": "dotnet tool install -g dotnet-ef",
+                "CodeParams": [
+                    {
+                        "Desc": "if needed"
+                    }
+                ]
+            },
+            {
+                "Nr": 15,
+                "CodeFormat": "dotnet tool update -g dotnet-ef",
+                "CodeParams": [
+                    {
+                        "Desc": "if needed"
+                    }
+                ]
+            },
+            {
+                "Nr": 16,
+                "CodeFormat": "dotnet ef migrations add InitialCreate",
+                "CodeParams": [
+                    {
+                        "Desc": "if needed"
+                    }
+                ]
+            },
+            {
+                "Nr": 17,
                 "CodeFormat": "dotnet ef database update",
                 "CodeParams": [
                     {
-                        "Desc": "run migrations"
+                        "Desc": "run migrations on db"
                     }
                 ]
             }
@@ -269,7 +296,7 @@
         "Title": "Deploy to the App Service with VS Code<br>Install Azure Account and Azure App Service extensions<br>Login with Account extension<br>",
         "Codes": [
             {
-                "Nr": 15,
+                "Nr": 18,
                 "CodeFormat": "dotnet publish -c Release",
                 "CodeParams": [
                     {
@@ -292,7 +319,7 @@
         "Title": "Use Kudu tool to get info on deployment.",
         "Codes": [
             {
-                "Nr": 16,
+                "Nr": 19,
                 "CodeFormat": "https://<app-name>.scm.azurewebsites.net",
                 "CodeParams": [
                     {
@@ -306,7 +333,7 @@
         "Title": "Configure and Stream Application Logs.<br>To filesystem or console.",
         "Codes": [
             {
-                "Nr": 17,
+                "Nr": 20,
                 "CodeFormat": "az webapp log config --web-server-logging 'filesystem' --name {0} --resource-group {1}",
                 "CodeParams": [
                     {
@@ -321,7 +348,7 @@
                 ]
             },
             {
-                "Nr": 18,
+                "Nr": 21,
                 "CodeFormat": "az webapp log tail --name {0} --resource-group {1}",
                 "CodeParams": [
                     {
@@ -342,7 +369,7 @@
         "Title": "Clean up resources",
         "Codes": [
             {
-                "Nr": 19,
+                "Nr": 22,
                 "CodeFormat": "az group delete --name {0}",
                 "CodeParams": [
                     {
