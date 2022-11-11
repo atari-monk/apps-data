@@ -28,12 +28,51 @@
         ]
     },
     {
-        "Title": "Create new mvc web app in VSCode. Test run it. Commit it.",
+        "Title": "Create net7, new mvc web app in VSCode. Test run it. Commit it.",
         "Codes": [
             {
                 "Nr": 4,
                 "CodeFormat": "dotnet new mvc -n todo-web-app"
             }
         ]
-    }
+    },
+    {
+        "Title": "Copy files of example app. Change namespace. Refactor names."
+    },
+    {
+        "Title": "Copy Todo model file."
+    },
+    {
+        "Title": "To raname project change folder and csproj name also change RootNamespace is csproj."
+    },
+    {
+        "Title": "Add sln file.",
+        "Codes": [
+            {
+                "Nr": 5,
+                "CodeFormat": "dotnet new sln"
+            }
+        ]
+    },
+    {
+        "Title": "Add proj to sln.",
+        "Codes": [
+            {
+                "Nr": 6,
+                "CodeFormat": "dotnet sln add .\\TodoWebApp\\"
+            }
+        ]
+    },
+    {
+        "Title": "Copy dbContext file and add Microsoft.EntityFrameworkCore.SqlServer PackageReference to csproj."
+    },
+    {
+        "Title": "Add contorller. Handle null warnings. (even temporary fix)"
+    },
+    {
+        "Title": "Copy views folder. Rename namespaces. Commit."
+    },
+    {
+        "Title": "Add ConnectionString named LocalDbConnection to appsettings.json. <a href=\"https://learn.microsoft.com/en-us/ef/core/miscellaneous/connection-strings\">Connection Strings</a>"
+    },
 ]
