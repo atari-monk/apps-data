@@ -72,8 +72,8 @@
                 "CodeFormat": "az sql server create --name {0} --resource-group {1} --location {2} --admin-user {3} --admin-password {4}",
                 "CodeParams": [
                     {
-                        "Name": "sql-server1",
-                        "Desc": "server name",
+                        "Name": "atari-monk-sql-server1",
+                        "Desc": "server name (unique in azure)",
                         "CssClass": "mark-name"
                     },
                     {
@@ -113,7 +113,7 @@
                         "CssClass": "mark-rg"
                     },
                     {
-                        "Name": "sql-server1",
+                        "Name": "atari-monk-sql-server1",
                         "Desc": "server name",
                         "CssClass": "mark-name"
                     },
