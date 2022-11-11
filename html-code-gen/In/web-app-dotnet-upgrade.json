@@ -1,0 +1,39 @@
+[
+    {
+        "Title": "Open Code powershell (shell set on folder Code)"
+    },
+    {
+        "Title": "Clone example repo. This web app is net6. Updgrade to net7",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "git clone https:\/\/github.com\/Azure-Samples\/msdocs-app-service-sqldb-dotnetcore.git"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "cd msdocs-app-service-sqldb-dotnetcore"
+            }
+        ]
+    },
+    {
+        "Title": "Create new repo on github. Named todo-web-app. Clone it."
+    },
+    {
+        "Title": "Check dotnet version. Install dotnet 7.0. <a href=\"https://dotnet.microsoft.com/en-us/download/dotnet/7.0\">Dotnet 7 download page</a>",
+        "Codes": [
+            {
+                "Nr": 3,
+                "CodeFormat": "dotnet --version"
+            }
+        ]
+    },
+    {
+        "Title": "Create new mvc web app in VSCode. Test run it. Commit it.",
+        "Codes": [
+            {
+                "Nr": 4,
+                "CodeFormat": "dotnet new mvc -n todo-web-app"
+            }
+        ]
+    }
+]
