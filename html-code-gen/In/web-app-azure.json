@@ -16,7 +16,7 @@
         ]
     },
     {
-        "Title": "Create new repo on github. Named to-do-web-app. Copy project there and commit."
+        "Title": "Create new repo on github. Named todo-web-app. Copy project there and commit."
     },
     {
         "Title": "Login to Azure CLI",
@@ -35,7 +35,7 @@
                 "CodeFormat": "az group create --name {0} --location {1} --tags {2}",
                 "CodeParams": [
                     {
-                        "Name": "to-do-web-app-rg",
+                        "Name": "todo-web-app-rg",
                         "Desc": "resource group",
                         "CssClass": "mark-rg"
                     },
@@ -45,7 +45,7 @@
                         "CssClass": "mark-location"
                     },
                     {
-                        "Name": "to-do-web-app",
+                        "Name": "todo-web-app",
                         "Desc": "description tag",
                         "CssClass": "mark-tag"
                     }
@@ -138,7 +138,7 @@
                 "CodeFormat": "az webapp create --name {0} --runtime \"{1}\" --plan {2} --resource-group {3}",
                 "CodeParams": [
                     {
-                        "Name": "to-do-web-app",
+                        "Name": "todo-web-app",
                         "Desc": "Generates domain name https://<app service name>.azurewebsites.com",
                         "CssClass": "mark-name"
                     },
@@ -152,7 +152,7 @@
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "to-do-web-app-rg",
+                        "Name": "todo-web-app-rg",
                         "Desc": "resource group",
                         "CssClass": "mark-rg"
                     }
@@ -197,12 +197,12 @@
                 "CodeFormat": "az webapp connection create sql --resource-group {0} --name {1} --target-resource-group {2} --server {3} --database {4} --client-type {5} --connection {6} --query {7}",
                 "CodeParams": [
                     {
-                        "Name": "to-do-web-app-rg",
+                        "Name": "todo-web-app-rg",
                         "Desc": "rg witch contains the web app",
                         "CssClass": "mark-rg"
                     },
                     {
-                        "Name": "to-do-web-app",
+                        "Name": "todo-web-app",
                         "Desc": "web app name",
                         "CssClass": "mark-name"
                     },
@@ -366,12 +366,12 @@
                 "CodeFormat": "az webapp log config --web-server-logging 'filesystem' --name {0} --resource-group {1}",
                 "CodeParams": [
                     {
-                        "Name": "to-do-web-app",
+                        "Name": "todo-web-app",
                         "Desc": "web app service name",
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "to-do-web-app-rg",
+                        "Name": "todo-web-app-rg",
                         "Desc": "resource group",
                         "CssClass": "mark-rg"
                     }
@@ -382,12 +382,12 @@
                 "CodeFormat": "az webapp log tail --name {0} --resource-group {1}",
                 "CodeParams": [
                     {
-                        "Name": "to-do-web-app",
+                        "Name": "todo-web-app",
                         "Desc": "web app service name",
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "to-do-web-app-rg",
+                        "Name": "todo-web-app-rg",
                         "Desc": "resource group",
                         "CssClass": "mark-rg"
                     }
@@ -403,7 +403,7 @@
                 "CodeFormat": "az group delete --name {0}",
                 "CodeParams": [
                     {
-                        "Name": "to-do-web-app-rg",
+                        "Name": "todo-web-app-rg",
                         "Desc": "resource group",
                         "CssClass": "mark-rg"
                     }
