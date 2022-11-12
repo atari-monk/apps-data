@@ -1,42 +1,42 @@
 {
     "azure-sql-db": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\azure-sql-db.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\azure-sql-db.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\azure-sql-db.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\azure-sql-db.html"
     },
     "cpp-compiler": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\cpp-compiler.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\cpp-compiler.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\cpp-compiler.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\cpp-compiler.html"
     },
     "local-nugets": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\local-nugets.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\local-nugets.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\local-nugets.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\local-nugets.html"
     },
     "new-github-repo": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\new-github-repo.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\new-github-repo.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\new-github-repo.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\new-github-repo.html"
     },
     "schema": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\schema.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\schema.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\schema.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\schema.html"
     },
     "secrets": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\secrets.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\secrets.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\secrets.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\secrets.html"
     },
     "ssms-azure": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\ssms-azure.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\ssms-azure.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\ssms-azure.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\ssms-azure.html"
     },
     "todo-app-azure": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\todo-app-azure.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\todo-app-azure.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\todo-app-azure.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\todo-app-azure.html"
     },
     "voting-app-azure": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\voting-app-azure.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\voting-app-azure.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\voting-app-azure.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\voting-app-azure.html"
     },
     "web-app-dotnet-upgrade": {
-        "JsonPath": "C:\\atari-monk\\apps-data\\html-code-gen\\In\\web-app-dotnet-upgrade.json",
-        "HtmlPath": "C:\\atari-monk\\apps-data\\html-code-gen\\Out\\web-app-dotnet-upgrade.html"
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\web-app-dotnet-upgrade.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\web-app-dotnet-upgrade.html"
     }
 }
