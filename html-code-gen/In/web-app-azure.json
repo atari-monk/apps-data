@@ -3,7 +3,7 @@
         "Title": "Open Code powershell (shell set on folder Code)"
     },
     {
-        "Title": "Clone example repo.",
+        "Title": "Clone example repo. (Prerequisite)",
         "Codes": [
             {
                 "Nr": 1,
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "Title": "Create new repo on github. Named todo-web-app. Copy project there and commit."
+        "Title": "Create new repo on github. Named todo-web-app. Copy project there and commit. (Prerequisite)"
     },
     {
         "Title": "Login to Azure CLI",
@@ -45,7 +45,7 @@
                         "CssClass": "mark-location"
                     },
                     {
-                        "Name": "todo-web-app",
+                        "Name": "todo-web-app resource group",
                         "Desc": "description tag",
                         "CssClass": "mark-tag"
                     }
@@ -71,7 +71,7 @@
                         "CssClass": "mark-location"
                     },
                     {
-                        "Name": "appservice-plans rg",
+                        "Name": "appservice-plans resource group",
                         "Desc": "description tag",
                         "CssClass": "mark-tag"
                     }
@@ -138,12 +138,12 @@
                 "CodeFormat": "az webapp create --name {0} --runtime \"{1}\" --plan {2} --resource-group {3}",
                 "CodeParams": [
                     {
-                        "Name": "todo-web-app",
-                        "Desc": "Generates domain name https://<app service name>.azurewebsites.com",
+                        "Name": "atari-monk-todo-web-app",
+                        "Desc": "Generates domain name https://<app service name>.azurewebsites.com (needs to be unique in azuzre)",
                         "CssClass": "mark-name"
                     },
                     {
-                        "Name": "DOTNETCORE:6.0",
+                        "Name": "DOTNETCORE:7.0",
                         "Desc": "runtime",
                         "CssClass": "mark-name"
                     },
@@ -190,7 +190,7 @@
         ]
     },
     {
-        "Title": "Connect the App to the Database.<br>When prompted, provide the login and password you used when creating azure sql server.<br>(Chars of password are not visible at all, but paste works)<br>Copy this connection string value from the output for later.",
+        "Title": "Connect the App to the Database.<br>When prompted, provide the login and password you used when creating azure sql server!.<br>(Chars of password are not visible at all, but paste works)<br>Copy this connection string value from the output for later.",
         "Codes": [
             {
                 "Nr": 11,
@@ -202,7 +202,7 @@
                         "CssClass": "mark-rg"
                     },
                     {
-                        "Name": "todo-web-app",
+                        "Name": "atari-monk-todo-web-app",
                         "Desc": "web app name",
                         "CssClass": "mark-name"
                     },
@@ -227,7 +227,7 @@
                         "CssClass": "mark-option"
                     },
                     {
-                        "Name": "sql-9f108",
+                        "Name": "sql_e73o5",
                         "Desc": "connection name",
                         "CssClass": "mark-name"
                     },
