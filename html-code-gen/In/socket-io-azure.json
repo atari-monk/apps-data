@@ -1,0 +1,48 @@
+[
+    {
+        "Title": "Setup project. In git bash or VSCode terminal.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "cd chat-server"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "npm init"
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "npm install socket.io"
+            },
+            {
+                "Nr": 4,
+                "CodeFormat": "npm install express"
+            }
+        ]
+    },
+    {
+        "Title": "To .gitignore add (if not there)",
+        "Codes": [
+            {
+                "Nr": 5,
+                "CodeFormat": "node_modules"
+            },
+            {
+                "Nr": 6,
+                "CodeFormat": ".vscode"
+            }
+        ]
+    },
+    {
+        "Title": "Add index.js with server code."
+    },
+    {
+        "Title": "Run it locally. Ctrl+C to kill it.",
+        "Codes": [
+            {
+                "Nr": 7,
+                "CodeFormat": "node index.js"
+            }
+        ]
+    }
+]
