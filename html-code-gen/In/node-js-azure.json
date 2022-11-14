@@ -69,5 +69,14 @@
                 ]
             }
         ]
+    },
+    {
+        "Title": "Test in the browser.",
+        "Codes": [
+            {
+                "Nr": 6,
+                "CodeFormat": "http://localhost:3000"
+            }
+        ]
     }
 ]
