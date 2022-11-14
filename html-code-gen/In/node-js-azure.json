@@ -1,0 +1,73 @@
+[
+    {
+        "Title": "Create new github repo, open git bash in Code folder, clone it.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "git clone https://github.com/atari-monk/web-dev-basics.git"
+            }
+        ]
+    },
+    {
+        "Title": "Verify that Node.js is installed.",
+        "Codes": [
+            {
+                "Nr": 2,
+                "CodeFormat": "node --version"
+            }
+        ]
+    },
+    {
+        "Title": "Create a Node.js application using the Express Generator.",
+        "Codes": [
+            {
+                "Nr": 3,
+                "CodeFormat": "cd {0} && npx express-generator {1} --view ejs",
+                "CodeParams": [
+                    {
+                        "Name": "web-dev-basics",
+                        "Desc": "repo folder",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "myExpressApp",
+                        "Desc": "app name",
+                        "CssClass": "mark-name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Install the NPM packages to the app.",
+        "Codes": [
+            {
+                "Nr": 4,
+                "CodeFormat": "cd {0} && npm install",
+                "CodeParams": [
+                    {
+                        "Name": "myExpressApp",
+                        "Desc": "app name",
+                        "CssClass": "mark-name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Start the development server with debug information.",
+        "Codes": [
+            {
+                "Nr": 5,
+                "CodeFormat": "DEBUG={0}:* npm start",
+                "CodeParams": [
+                    {
+                        "Name": "myExpressApp",
+                        "Desc": "app name",
+                        "CssClass": "mark-name"
+                    }
+                ]
+            }
+        ]
+    }
+]
