@@ -1,0 +1,89 @@
+[
+    {
+        "Title": "Create new github repo"
+    },
+    {
+        "Title": "Open folder with VSCode"
+    },
+    {
+        "Title": "Setup project.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "dotnet new sln"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "dotnet new classlib -n Connection.Builder"
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "dotnet sln add ./Connection.Builder/"
+            }
+        ]
+    },
+    {
+        "Title": "In csproj file set properties describing nuget",
+        "Codes": [
+            {
+                "Nr": 4,
+                "CodeFormat": "<PackageId>{0}</PackageId><br><Version>{1}</Version><br><Authors>{2}</Authors><br><Company>{3}</Company><br><PackageTags>{4}</PackageTags><br><Description>{5}</Description>",
+                "CodeParams": [
+                    {
+                        "Name": "Connection.Builder.15.11.2022.001.Test",
+                        "Desc": "Id name, unique in nuget.org",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "1.0.0",
+                        "Desc": "version",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "atari-monk",
+                        "Desc": "author",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "",
+                        "Desc": "company name",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "tag1;tag2",
+                        "Desc": "tags important for searching nuget",
+                        "CssClass": "mark-name"
+                    },
+                    {
+                        "Name": "Builds ConnectionString.",
+                        "Desc": "description",
+                        "CssClass": "mark-name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Build",
+        "Codes": [
+            {
+                "Nr": 5,
+                "CodeFormat": "dotnet build"
+            }
+        ]
+    },
+    {
+        "Title": "Use nuget command.",
+        "Codes": [
+            {
+                "Nr": 6,
+                "CodeFormat": "dotnet pack",
+                "CodeParams": [
+                    {
+                        "Desc": "nuget path in output"
+                    }
+                ]
+            }
+        ]
+    }
+]
