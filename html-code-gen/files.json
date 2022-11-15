@@ -7,10 +7,6 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\cpp-compiler.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\cpp-compiler.html"
     },
-    "local-nugets": {
-        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\local-nugets.json",
-        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\local-nugets.html"
-    },
     "new-github-repo": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\new-github-repo.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\new-github-repo.html"
@@ -19,6 +15,10 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\node-js-azure.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\node-js-azure.html"
     },
+    "nuget": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\nuget.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\nuget.html"
+    },
     "schema": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\schema.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\schema.html"
@@ -26,6 +26,10 @@
     "secrets": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\secrets.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\secrets.html"
+    },
+    "socket-io-azure": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\socket-io-azure.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\socket-io-azure.html"
     },
     "ssms-azure": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\ssms-azure.json",
