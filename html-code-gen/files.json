@@ -1,4 +1,8 @@
 {
+    "azure-secrets": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\azure-secrets.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\azure-secrets.html"
+    },
     "azure-sql-db": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\azure-sql-db.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\azure-sql-db.html"
