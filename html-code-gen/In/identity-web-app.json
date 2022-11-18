@@ -1,0 +1,93 @@
+[
+    {
+        "Title": "Create new github repo.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "identity-web-app"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "cd C:\\atari-monk\\Code"
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "git clone https://github.com/atari-monk/identity-web-app.git"
+            },
+            {
+                "Nr": 4,
+                "CodeFormat": "cd identity-web-app"
+            },
+            {
+                "Nr": 5,
+                "CodeFormat": "code ."
+            }
+        ]
+    },
+    {
+        "Title": "Generate web app with identity",
+        "Codes": [
+            {
+                "Nr": 6,
+                "CodeFormat": "dotnet new list",
+                "CodeParams": [
+                    {
+                        "Desc": "check options"
+                    }
+                ]
+            },
+            {
+                "Nr": 7,
+                "CodeFormat": "dotnet new mvc --auth Individual -uld -n identity-web-app"
+            }
+        ]
+    },
+    {
+        "Title": "Setup project.",
+        "Codes": [
+            {
+                "Nr": 8,
+                "CodeFormat": "dotnet new sln"
+            },
+            {
+                "Nr": 9,
+                "CodeFormat": "dotnet sln add identity-web-app"
+            },
+            {
+                "Nr": 10,
+                "CodeFormat": "dotnet tool update --global dotnet-ef"
+            },
+            {
+                "Nr": 11,
+                "CodeFormat": "cd .\\identity-web-app\\"
+            },
+            {
+                "Nr": 12,
+                "CodeFormat": "dotnet ef database update"
+            }
+        ]
+    },
+    {
+        "Title": "Restart VSCode (after adding sln, for some reason it needs it).",
+        "Codes": [
+            {
+                "Nr": 13,
+                "CodeFormat": "*.vscode",
+                "CodeParams": [
+                    {
+                        "Desc": "add to .gitignore"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Run the app and register a user and login. (With debugger and/or without).",
+        "Codes": [
+            {
+                "Nr": 14,
+                "CodeFormat": "dotnet run"
+            }
+        ]
+    }
+]

@@ -15,6 +15,10 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\identity-db-lib.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\identity-db-lib.html"
     },
+    "identity-web-app": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\identity-web-app.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\identity-web-app.html"
+    },
     "new-github-repo": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\new-github-repo.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\new-github-repo.html"
