@@ -107,7 +107,7 @@
                 "CodeFormat": "dotnet pack -c Release -o {0}",
                 "CodeParams": [
                     {
-                        "Name": "C:\\atari-monk\\Build\\connection-builder",
+                        "Name": "C:\\atari-monk\\Build\\nugets",
                         "Desc": "build path",
                         "CssClass": "mark-name"
                     }
@@ -120,7 +120,7 @@
         "Codes": [
             {
                 "Nr": 10,
-                "CodeFormat": "&lt;RestoreSources&gt;$(RestoreSources);C:\\atari-monk\\Build\\connection-builder;https://api.nuget.org/v3/index.json&lt;/RestoreSources&gt;"
+                "CodeFormat": "&lt;RestoreSources&gt;$(RestoreSources);C:\\atari-monk\\Build\\nugets;https://api.nuget.org/v3/index.json&lt;/RestoreSources&gt;"
             }
         ]
     },
@@ -134,7 +134,7 @@
             
             {
                 "Nr": 12,
-                "CodeFormat": "dotnet add package Connection.Builder.15.11.2022.001.Test"
+                "CodeFormat": "dotnet add package Connection.Builder.19.11.2022.001.Test"
             },
             {
                 "Nr": 13,
