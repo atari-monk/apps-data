@@ -27,7 +27,7 @@
         "Codes": [
             {
                 "Nr": 4,
-                "CodeFormat": "<PackageId>{0}</PackageId><br><Version>{1}</Version><br><Authors>{2}</Authors><br><Company>{3}</Company><br><PackageTags>{4}</PackageTags><br><Description>{5}</Description>",
+                "CodeFormat": "&lt;PackageId&gt;{0}&lt;/PackageId&gt;&lt;br&gt;&lt;Version&gt;{1}&lt;/Version&gt;&lt;br&gt;&lt;Authors&gt;{2}&lt;/Authors&gt;&lt;br&gt;&lt;Company&gt;{3}&lt;/Company&gt;&lt;br&gt;&lt;PackageTags&gt;{4}&lt;/PackageTags&gt;&lt;br&gt;&lt;Description&gt;{5}&lt;/Description&gt;",
                 "CodeParams": [
                     {
                         "Name": "Connection.Builder.15.11.2022.001.Test",
@@ -120,7 +120,7 @@
         "Codes": [
             {
                 "Nr": 10,
-                "CodeFormat": "<RestoreSources>$(RestoreSources);C:\\atari-monk\\Build\\connection-builder;https://api.nuget.org/v3/index.json</RestoreSources>"
+                "CodeFormat": "&lt;RestoreSources&gt;$(RestoreSources);C:\\atari-monk\\Build\\connection-builder;https://api.nuget.org/v3/index.json&lt;/RestoreSources&gt;"
             }
         ]
     },

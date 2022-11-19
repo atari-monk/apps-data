@@ -113,6 +113,6 @@
         "Title": "Configure Identity services.<br>I copied default settings from msdocs and put it in class invoked in program.cs.<br>It's refactored to better readability."
     },
     {
-        "Title": "Add db connection string buider, with help of <a href=\"./nuget.html\"></a>."
+        "Title": "Add db connection string buider, with help of <a href=\"./nuget.html\">Nuget</a> and <a href=\"./azure-secrets.html\">Azure Secrets</a>."
     }
 ]
