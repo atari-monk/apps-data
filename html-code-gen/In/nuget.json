@@ -129,12 +129,18 @@
         "Codes": [
             {
                 "Nr": 11,
-                "CodeFormat": "cd C:\\atari-monk\\Code\\todo-web-app\\TodoWebApp"
+                "CodeFormat": "cd C:\\atari-monk\\Code\\repo\\proj"
             },
-            
             {
                 "Nr": 12,
-                "CodeFormat": "dotnet add package Connection.Builder.19.11.2022.001.Test"
+                "CodeFormat": "dotnet add package {0}",
+                "CodeParams": [
+                    {
+                        "Name": "Connection.Builder.19.11.2022",
+                        "Desc": "PackageId",
+                        "CssClass": "mark-name"
+                    }
+                ]
             },
             {
                 "Nr": 13,

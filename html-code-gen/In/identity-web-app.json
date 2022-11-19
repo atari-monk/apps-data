@@ -156,15 +156,26 @@
             },
             {
                 "Nr": 24,
-                "CodeFormat": "dotnet aspnet-codegenerator identity -dc Identity.WebApp.Data.ApplicationDbContext {0}",
+                "CodeFormat": "dotnet aspnet-codegenerator identity -dc Identity.WebApp.Data.ApplicationDbContext",
                 "CodeParams": [
                     {
-                        "Name": "--useDefaultUI",
-                        "Desc": "all the available Identity UI pages will be created in your project",
-                        "CssClass": "mark-option"
+                        "Desc": "this should generate all available UI",
+                        "CssClass": "mark-desc"
                     }
                 ]
             }
         ]
+    },
+    {
+        "Title": "Error thrown.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "Cannot use an existing DbContext with the '--useDefaultUI' option"
+            }
+        ]
+    },
+    {
+        "Title": "Removed --useDefaultUI from command. Fixed error."
     }
 ]
