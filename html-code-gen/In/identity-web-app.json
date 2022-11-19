@@ -116,11 +116,54 @@
         "Title": "Add db connection string buider, with help of <a href=\"./nuget.html\">Nuget</a> and <a href=\"./azure-secrets.html\">Azure Secrets</a>."
     },
     {
-        "Title": "Scaffold Identity UI.",
+        "Title": "Scaffold Identity UI. Use commands you acctualy need for this. Below some set.",
         "Codes": [
             {
-                "Nr": 1,
-                "CodeFormat": ""
+                "Nr": 15,
+                "CodeFormat": "dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design"
+            },
+            {
+                "Nr": 16,
+                "CodeFormat": "dotnet add package Microsoft.EntityFrameworkCore.Design"
+            },
+            {
+                "Nr": 17,
+                "CodeFormat": "dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore"
+            },
+            {
+                "Nr": 18,
+                "CodeFormat": "dotnet add package Microsoft.AspNetCore.Identity.UI"
+            },
+            {
+                "Nr": 19,
+                "CodeFormat": "dotnet add package Microsoft.EntityFrameworkCore.SqlServer"
+            },
+            {
+                "Nr": 20,
+                "CodeFormat": "dotnet add package Microsoft.EntityFrameworkCore.Tools"
+            },
+            {
+                "Nr": 21,
+                "CodeFormat": "dotnet tool install -g dotnet-aspnet-codegenerator"
+            },
+            {
+                "Nr": 22,
+                "CodeFormat": "dotnet tool update -g dotnet-aspnet-codegenerator"
+            },
+            {
+                "Nr": 23,
+                "CodeFormat": "dotnet aspnet-codegenerator identity -h"
+            },
+            {
+                "Nr": 24,
+                "CodeFormat": "dotnet aspnet-codegenerator identity -dc Identity.WebApp.Data.ApplicationDbContext {0}",
+                "CodeParams": [
+                    {
+                        "Name": "--useDefaultUI",
+                        "Desc": "all the available Identity UI pages will be created in your project",
+                        "CssClass": "mark-option"
+                    }
+                ]
             }
         ]
     }
