@@ -1,10 +1,16 @@
 [
     {
-        "Title": "Create new github repo.",
+        "Title": "Create new github repo.<br>Here using github portal.<br>Open in VSCode.",
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": "identity-web-app"
+                "CodeFormat": "identity-web-app",
+                "CodeParams": [
+                    {
+                        "Desc": "repo name",
+                        "CssClass": "mark-name"
+                    }
+                ]
             },
             {
                 "Nr": 2,
@@ -25,25 +31,32 @@
         ]
     },
     {
-        "Title": "Generate web app with identity",
+        "Title": "Generate web app with identity.",
         "Codes": [
             {
                 "Nr": 6,
                 "CodeFormat": "dotnet new list",
                 "CodeParams": [
                     {
-                        "Desc": "check options"
+                        "Desc": "optional to check options",
+                        "CssClass": "mark-desc"
                     }
                 ]
             },
             {
                 "Nr": 7,
-                "CodeFormat": "dotnet new mvc --auth Individual -uld -n identity-web-app"
+                "CodeFormat": "dotnet new mvc --auth Individual -uld -n Identity.WebApp",
+                "CodeParams": [
+                    {
+                        "Desc": "This uses LocalDb. There is option with SQLite",
+                        "CssClass": "mark-desc"
+                    }
+                ]
             }
         ]
     },
     {
-        "Title": "Setup project.",
+        "Title": "Setup project. Restart VSCode (for some reason it needs it).",
         "Codes": [
             {
                 "Nr": 8,
@@ -51,33 +64,39 @@
             },
             {
                 "Nr": 9,
-                "CodeFormat": "dotnet sln add identity-web-app"
-            },
-            {
-                "Nr": 10,
-                "CodeFormat": "dotnet tool update --global dotnet-ef"
-            },
-            {
-                "Nr": 11,
-                "CodeFormat": "cd .\\identity-web-app\\"
-            },
-            {
-                "Nr": 12,
-                "CodeFormat": "dotnet ef database update"
+                "CodeFormat": "dotnet sln add Identity.WebApp"
             }
         ]
     },
     {
-        "Title": "Restart VSCode (after adding sln, for some reason it needs it).",
+        "Title": "VSCode should add it's json configs. Optionally add them to ignore, to not commit it.",
         "Codes": [
             {
-                "Nr": 13,
+                "Nr": 10,
                 "CodeFormat": "*.vscode",
                 "CodeParams": [
                     {
-                        "Desc": "add to .gitignore"
+                        "Desc": "add to .gitignore",
+                        "CssClass": "mark-desc"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "Title": "Do migrations.",
+        "Codes": [
+            {
+                "Nr": 11,
+                "CodeFormat": "dotnet tool update --global dotnet-ef"
+            },
+            {
+                "Nr": 12,
+                "CodeFormat": "cd .\\Identity.WebApp\\"
+            },
+            {
+                "Nr": 13,
+                "CodeFormat": "dotnet ef database update"
             }
         ]
     },
@@ -89,5 +108,11 @@
                 "CodeFormat": "dotnet run"
             }
         ]
+    },
+    {
+        "Title": "Configure Identity services.<br>I copied default settings from msdocs and put it in class invoked in program.cs.<br>It's refactored to better readability."
+    },
+    {
+        "Title": "Add db connection string buider, with help of <a href=\"./nuget.html\"></a>."
     }
 ]
