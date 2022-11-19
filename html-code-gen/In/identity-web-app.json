@@ -114,5 +114,14 @@
     },
     {
         "Title": "Add db connection string buider, with help of <a href=\"./nuget.html\">Nuget</a> and <a href=\"./azure-secrets.html\">Azure Secrets</a>."
+    },
+    {
+        "Title": "Scaffold Identity UI.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
+            }
+        ]
     }
 ]

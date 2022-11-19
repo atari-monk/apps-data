@@ -1,38 +1,13 @@
 [
     {
+        "Title": ""
+    },
+    {
         "Title": "",
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    },
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
-            },
-            {
-                "Nr": 2,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    },
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
+                "CodeFormat": ""
             }
         ]
     },
@@ -40,30 +15,9 @@
         "Title": "",
         "Codes": [
             {
-                "Nr": 3,
+                "Nr": 1,
                 "CodeFormat": "",
                 "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    },
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
-            },
-            {
-                "Nr": 4,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    },
                     {
                         "Name": "",
                         "Desc": "",
