@@ -1,0 +1,48 @@
+[
+    {
+        "Title": "Multi Cursor.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "Select name."
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "Ctrl + D, multiple times."
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "Gives multi cursor on occurences of name below selected."
+            }
+        ]
+    },
+    {
+        "Title": "Workspace.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "Combines multiple solutions in one instance of VSCode."
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "Open folder of first solution."
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "File->Add Folder To Workspace. As many as you need."
+            },
+            {
+                "Nr": 4,
+                "CodeFormat": "File->Save Workspace As.... I save in .vscode of solution that workspace is created for."
+            },
+            {
+                "Nr": 5,
+                "CodeFormat": "File->Close Workspace on finish."
+            },
+            {
+                "Nr": 6,
+                "CodeFormat": "File->Open Workspace from File... to continue."
+            }
+        ]
+    }
+]

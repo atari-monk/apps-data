@@ -31,6 +31,10 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\nuget.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\nuget.html"
     },
+    "remove-background": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\remove-background.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\remove-background.html"
+    },
     "schema": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\schema.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\schema.html"
@@ -47,6 +51,10 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\ssms-azure.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\ssms-azure.html"
     },
+    "stream-video": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\stream-video.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\stream-video.html"
+    },
     "todo-app-azure": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\todo-app-azure.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\todo-app-azure.html"
@@ -58,6 +66,10 @@
     "voting-app-azure": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\voting-app-azure.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\voting-app-azure.html"
+    },
+    "vscode": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\vscode.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\vscode.html"
     },
     "web-app-dotnet-upgrade": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\web-app-dotnet-upgrade.json",
