@@ -208,5 +208,34 @@
     },
     {
         "Title": "Tested register, login, logout locally."
+    },
+    {
+        "Title": "Below commands was used to deploy to Azure.",
+        "Codes": [
+            {
+                "Nr": 29,
+                "CodeFormat": "az login"
+            },
+            {
+                "Nr": 30,
+                "CodeFormat": "az group create --name identity-web-app-rg --location swedencentral --tags identity-web-app resource group"
+            },
+            {
+                "Nr": 31,
+                "CodeFormat": "az webapp create --name atari-monk-identity-web-app --runtime 'DOTNETCORE:7.0' --plan atari-monk-appservice-plan1 --resource-group identity-web-app-rg"
+            },
+            {
+                "Nr": 32,
+                "CodeFormat": "az sql db create --resource-group az-sql-db1-rg --server atari-monk-sql-server1 --name identityDb"
+            },
+            {
+                "Nr": 33,
+                "CodeFormat": "az webapp connection create sql --resource-group identity-web-app-rg --name atari-monk-identity-web-app --target-resource-group az-sql-db1-rg --server atari-monk-sql-server1 --database identityDb --client-type dotnet --query configurations"
+            },
+            {
+                "Nr": 34,
+                "CodeFormat": ""
+            }
+        ]
     }
 ]
