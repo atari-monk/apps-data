@@ -170,12 +170,43 @@
         "Title": "Error thrown.",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 25,
                 "CodeFormat": "Cannot use an existing DbContext with the '--useDefaultUI' option"
             }
         ]
     },
     {
         "Title": "Removed --useDefaultUI from command. Fixed error."
+    },
+    {
+        "Title": "Removed null warns/problems from generated code."
+    },
+    {
+        "Title": "Add [Authorize] on privacy page in controller. To test identity."
+    },
+    {
+        "Title": "Upgraded connection builder to handle locally trusted connection.<br>I dont like to clear all nugets, it take ages to restore them after that.",
+        "Codes": [
+            {
+                "Nr": 26,
+                "CodeFormat": "dotnet nuget locals temp -c"
+            },
+            {
+                "Nr": 27,
+                "CodeFormat": "dotnet nuget locals global-packages -c"
+            }
+        ]
+    },
+    {
+        "Title": "Created local db by ef core migrations.",
+        "Codes": [
+            {
+                "Nr": 28,
+                "CodeFormat": "dotnet ef database update"
+            }
+        ]
+    },
+    {
+        "Title": "Tested register, login, logout locally."
     }
 ]

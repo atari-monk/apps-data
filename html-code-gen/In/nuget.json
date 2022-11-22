@@ -89,12 +89,20 @@
                 "CodeFormat": "dotnet nuget locals all --clear",
                 "CodeParams": [
                     {
-                        "Desc": "clear your local packages cache"
+                        "Desc": "clear your local packages cache (try to use below, this one takes ages to restore after)"
                     }
                 ]
             },
             {
                 "Nr": 8,
+                "CodeFormat": "dotnet nuget locals temp -c"
+            },
+            {
+                "Nr": 9,
+                "CodeFormat": "dotnet nuget locals global-packages -c"
+            },
+            {
+                "Nr": 10,
                 "CodeFormat": "dotnet restore",
                 "CodeParams": [
                     {
@@ -103,7 +111,7 @@
                 ]
             },
             {
-                "Nr": 9,
+                "Nr": 11,
                 "CodeFormat": "dotnet pack -c Release -o {0}",
                 "CodeParams": [
                     {
@@ -119,7 +127,7 @@
         "Title": "In target csproj file, add local nuget source. (also nuget.org)",
         "Codes": [
             {
-                "Nr": 10,
+                "Nr": 12,
                 "CodeFormat": "&lt;RestoreSources&gt;$(RestoreSources);C:\\atari-monk\\Build\\nugets;https://api.nuget.org/v3/index.json&lt;/RestoreSources&gt;"
             }
         ]
@@ -128,11 +136,11 @@
         "Title": "Consume nuget in target project.",
         "Codes": [
             {
-                "Nr": 11,
+                "Nr": 13,
                 "CodeFormat": "cd C:\\atari-monk\\Code\\repo\\proj"
             },
             {
-                "Nr": 12,
+                "Nr": 14,
                 "CodeFormat": "dotnet add package {0}",
                 "CodeParams": [
                     {
@@ -143,7 +151,7 @@
                 ]
             },
             {
-                "Nr": 13,
+                "Nr": 15,
                 "CodeFormat": "dotnet restore"
             }
         ]
