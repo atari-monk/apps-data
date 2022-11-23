@@ -1,29 +1,25 @@
 [
     {
-        "Title": ""
+        "Title": "Created db SqlTest (sqls in repo). Backup to .bak file."
     },
     {
-        "Title": "",
+        "Title": "Write queries:"
+    },
+    {
+        "Title": "Persons who have no address.",
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": ""
+                "CodeFormat": "SELECT p.[Id],p.[Name],p.[Surname],p.[IdNumber],p.[DateOfBirth]<br>FROM [dbo].[Person] p<br>LEFT JOIN [dbo].[Address] a<br>ON p.Id = a.PersonId<br>WHERE a.Id IS NULL;"
             }
         ]
     },
     {
-        "Title": "",
+        "Title": "Unique name of person who are born during july, august.",
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
+                "CodeFormat": "SELECT DISTINCT n, m FROM <br>(SELECT [Name] as n, MONTH([DateOfBirth]) as m<br>FROM [dbo].[Person])<br>AS data WHERE m IN ('7','8')"
             }
         ]
     }
