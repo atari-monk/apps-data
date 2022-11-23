@@ -210,7 +210,7 @@
         "Title": "Tested register, login, logout locally."
     },
     {
-        "Title": "Below commands was used to deploy to Azure.",
+        "Title": "Below commands was used to deploy to Azure.<br>As output, there is connection string.<br>Based on <a href='todo-app-azure.html'>todo-app-azure</a>.",
         "Codes": [
             {
                 "Nr": 29,
@@ -218,24 +218,70 @@
             },
             {
                 "Nr": 30,
-                "CodeFormat": "az group create --name identity-web-app-rg --location swedencentral --tags identity-web-app resource group"
+                "CodeFormat": "az login --tenant id",
+                "CodeParams": [
+                    {
+                        "Desc": "sometimes it returns this, with id, to log with cell phone",
+                        "CssClass": "mark-desc"
+                    }
+                ]
             },
             {
                 "Nr": 31,
-                "CodeFormat": "az webapp create --name atari-monk-identity-web-app --runtime 'DOTNETCORE:7.0' --plan atari-monk-appservice-plan1 --resource-group identity-web-app-rg"
+                "CodeFormat": "az group create --name identity-web-app-rg --location swedencentral --tags identity-web-app resource group"
             },
             {
                 "Nr": 32,
-                "CodeFormat": "az sql db create --resource-group az-sql-db1-rg --server atari-monk-sql-server1 --name identityDb"
+                "CodeFormat": "az webapp create --name atari-monk-identity-web-app --runtime 'DOTNETCORE:7.0' --plan atari-monk-appservice-plan1 --resource-group identity-web-app-rg"
             },
             {
                 "Nr": 33,
-                "CodeFormat": "az webapp connection create sql --resource-group identity-web-app-rg --name atari-monk-identity-web-app --target-resource-group az-sql-db1-rg --server atari-monk-sql-server1 --database identityDb --client-type dotnet --query configurations"
+                "CodeFormat": "az sql db create --resource-group az-sql-db1-rg --server atari-monk-sql-server1 --name identityDb"
             },
             {
                 "Nr": 34,
-                "CodeFormat": ""
+                "CodeFormat": "az webapp connection create sql --resource-group identity-web-app-rg --name atari-monk-identity-web-app --target-resource-group az-sql-db1-rg --server atari-monk-sql-server1 --database identityDb --client-type dotnet --query configurations"
             }
         ]
+    },
+    {
+        "Title": "Connection string from Azure was input as local secrets.<br>Based on <a href='secrets.html'>secrets</a> and <a href='azure-secrets.html'>azure secrets</a>.",
+        "Codes": [
+            {
+                "Nr": 35,
+                "CodeFormat": "dotnet user-secrets set 'Server' 'atari-monk-sql-server1.database.windows.net'"
+            },
+            {
+                "Nr": 36,
+                "CodeFormat": "dotnet user-secrets set 'DbPort' '1433'"
+            },
+            {
+                "Nr": 37,
+                "CodeFormat": "dotnet user-secrets set 'DbUser' 'atari-monk'"
+            },
+            {
+                "Nr": 38,
+                "CodeFormat": "dotnet user-secrets set 'DbPassword' 'x'"
+            },
+            {
+                "Nr": 39,
+                "CodeFormat": "dotnet user-secrets set 'Database' 'identityDb'"
+            }
+        ]
+    },
+    {
+        "Title": "Deploy migrations on Azure sql server.",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "dotnet ef database update"
+            }
+        ]
+    },
+    {
+        "Title": "Build and Deploy web app on Azure App Services. (Right-click on publish folder and select Deploy to Web App). Test app."
+    },
+    {
+        "Title": "At this point i had realised that db on Azure was above S0 witch costed me. Had to mail with support. They agread to forgive cost on 04.12.2022.<br>I deleted all resources before mailing with them."
     }
 ]
