@@ -47,6 +47,10 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\socket-io-azure.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\socket-io-azure.html"
     },
+    "sql": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\sql.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\sql.html"
+    },
     "ssms-azure": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\ssms-azure.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\ssms-azure.html"
