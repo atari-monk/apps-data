@@ -33,11 +33,11 @@
         ]
     },
     {
-        "Title": "",
+        "Title": "Persons with adresses of more that one type.",
         "Codes": [
             {
                 "Nr": 4,
-                "CodeFormat": ""
+                "CodeFormat": "select * FROM (<br>select<br>p.Name as Person<br>, at.Name as AddressType<br>, count(*) as c <br>FROM Address a<br>INNER JOIN AddressType at<br>ON a.AddressTypeId = at.Id<br>INNER JOIN Person p<br>ON a.PersonId = p.Id<br>GROUP BY p.Name, at.Name) selectA<br>WHERE c>1<br>ORDER BY selectA.c DESC;"
             }
         ]
     }
