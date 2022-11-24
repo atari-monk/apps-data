@@ -18,8 +18,26 @@
         "Title": "Unique name of person who are born during july, august.",
         "Codes": [
             {
-                "Nr": 1,
+                "Nr": 2,
                 "CodeFormat": "SELECT DISTINCT n, m FROM <br>(SELECT [Name] as n, MONTH([DateOfBirth]) as m<br>FROM [dbo].[Person])<br>AS data WHERE m IN ('7','8')"
+            }
+        ]
+    },
+    {
+        "Title": "Show one record with addres type witch is used the most and count of it used.",
+        "Codes": [
+            {
+                "Nr": 3,
+                "CodeFormat": "select Top(1)<br>at.Name,<br>count(*) as c<br>FROM Address a<br>INNER JOIN AddressType at<br>ON a.AddressTypeId = at.Id<br>GROUP BY at.Name<br>ORDER BY c DESC;"
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 4,
+                "CodeFormat": ""
             }
         ]
     }
