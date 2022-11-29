@@ -1,0 +1,23 @@
+[
+    {
+        "Title": "In Windows 8/10 Open",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "Settings->System->Advanced system settings"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "Settings->System->Advanced system settings"
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "Click Environment Variables"
+            },
+            {
+                "Nr": 4,
+                "CodeFormat": "Set PATH vars."
+            }
+        ]
+    }
+]
