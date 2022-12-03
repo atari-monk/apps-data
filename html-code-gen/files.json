@@ -11,6 +11,10 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\cpp-compiler.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\cpp-compiler.html"
     },
+    "csharp-job-test": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\csharp-job-test.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\csharp-job-test.html"
+    },
     "identity-db-lib": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\identity-db-lib.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\identity-db-lib.html"
