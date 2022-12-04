@@ -8,14 +8,10 @@
             },
             {
                 "Nr": 2,
-                "CodeFormat": "Settings->System->Advanced system settings"
-            },
-            {
-                "Nr": 3,
                 "CodeFormat": "Click Environment Variables"
             },
             {
-                "Nr": 4,
+                "Nr": 3,
                 "CodeFormat": "Set PATH vars."
             }
         ]
