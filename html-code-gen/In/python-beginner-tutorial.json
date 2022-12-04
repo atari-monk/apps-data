@@ -261,196 +261,46 @@
             {
                 "Nr": 50,
                 "CodeFormat": "with"
+            },
+            {
+                "Nr": 51,
+                "CodeFormat": "pip - cli for packages"
             }
         ]
     },
     {
-        "Title": "<a href=''></a>",
+        "Title": "<a href='https://github.com/atari-monk/python-beginner-tutorial/blob/main/sample14.py'>sample14</a>",
         "Codes": [
             {
-                "Nr": 47,
-                "CodeFormat": ""
+                "Nr": 52,
+                "CodeFormat": "list compressions"
             },
             {
-                "Nr": 48,
-                "CodeFormat": ""
+                "Nr": 53,
+                "CodeFormat": "polymorphism (needs upg ?)"
             },
             {
-                "Nr": 49,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 50,
-                "CodeFormat": ""
+                "Nr": 54,
+                "CodeFormat": "operator overloading"
             }
         ]
     },
     {
-        "Title": "<a href=''></a>",
+        "Title": "<a href='https://github.com/atari-monk/python-beginner-tutorial/blob/main/sample15.py'>sample15</a>",
         "Codes": [
             {
-                "Nr": 47,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 48,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 49,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 50,
-                "CodeFormat": ""
+                "Nr": 55,
+                "CodeFormat": "code that leaded to sample16"
             }
         ]
     },
     {
-        "Title": "<a href=''></a>",
+        "Title": "<a href='https://github.com/atari-monk/python-beginner-tutorial/blob/main/sample16-blackjack.py'>sample16 blackjack</a>",
         "Codes": [
             {
-                "Nr": 47,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 48,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 49,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 50,
-                "CodeFormat": ""
+                "Nr": 56,
+                "CodeFormat": "Objct oriented blackjack game"
             }
         ]
-    },
-    {
-        "Title": "<a href=''></a>",
-        "Codes": [
-            {
-                "Nr": 47,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 48,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 49,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 50,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "<a href=''></a>",
-        "Codes": [
-            {
-                "Nr": 47,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 48,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 49,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 50,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "<a href=''></a>",
-        "Codes": [
-            {
-                "Nr": 47,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 48,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 49,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 50,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "<a href=''></a>",
-        "Codes": [
-            {
-                "Nr": 47,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 48,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 49,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 50,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "<a href=''></a>",
-        "Codes": [
-            {
-                "Nr": 47,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 48,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 49,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 50,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "<a href=''></a>",
-        "Codes": [
-            {
-                "Nr": 47,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 48,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 49,
-                "CodeFormat": ""
-            },
-            {
-                "Nr": 50,
-                "CodeFormat": ""
-            }
-        ]
-    },
+    }
 ]

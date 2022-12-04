@@ -35,6 +35,14 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\nuget.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\nuget.html"
     },
+    "path-sys-var": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\path-sys-var.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\path-sys-var.html"
+    },
+    "python-beginner-tutorial": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\python-beginner-tutorial.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\python-beginner-tutorial.html"
+    },
     "remove-background": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\remove-background.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\remove-background.html"
