@@ -15,6 +15,10 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\csharp-job-test.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\csharp-job-test.html"
     },
+    "html-beginner-tutorial": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\html-beginner-tutorial.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\html-beginner-tutorial.html"
+    },
     "identity-db-lib": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\identity-db-lib.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\identity-db-lib.html"
