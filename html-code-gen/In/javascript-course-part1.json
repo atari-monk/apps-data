@@ -1,29 +1,353 @@
 [
     {
-        "Title": ""
-    },
-    {
-        "Title": "",
+        "Title": "VSCode->Settings->Color Theme",
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": ""
+                "CodeFormat": "Mine was Github Dark Default"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "Monokai Pro",
+                "CodeParams": [
+                    {
+                        "Desc": "install as extension, first impression: better visability, paid version",
+                        "CssClass": "mark-desc"
+                    }
+                ]
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "Monokai Classic",
+                "CodeParams": [
+                    {
+                        "Desc": "comes with VSCode, Pro is based on it.",
+                        "CssClass": "mark-desc"
+                    }
+                ]
             }
         ]
     },
     {
-        "Title": "",
+        "Title": "VSCode->Settings",
         "Codes": [
             {
-                "Nr": 1,
-                "CodeFormat": "",
+                "Nr": 4,
+                "CodeFormat": "Auto Save: {0}",
                 "CodeParams": [
                     {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
+                        "Name": "onFocusChange",
+                        "Desc": "saves when changing focus",
+                        "CssClass": "mark-desc"
                     }
                 ]
+            },
+            {
+                "Nr": 5,
+                "CodeFormat": "Font Size: {0}",
+                "CodeParams": [
+                    {
+                        "Name": "18",
+                        "Desc": "default font size",
+                        "CssClass": "mark-desc"
+                    }
+                ]
+            },
+            {
+                "Nr": 6,
+                "CodeFormat": "Multi Cursor Modifier: {0}",
+                "CodeParams": [
+                    {
+                        "Name": "ctrlCmd",
+                        "Desc": "default key mod",
+                        "CssClass": "mark-desc"
+                    }
+                ]
+            },
+            {
+                "Nr": 7,
+                "CodeFormat": "Word Wrap: {0}",
+                "CodeParams": [
+                    {
+                        "Name": "on",
+                        "Desc": "default on",
+                        "CssClass": "mark-desc"
+                    }
+                ]
+            },
+            {
+                "Nr": 8,
+                "CodeFormat": "Tab Size: {0}",
+                "CodeParams": [
+                    {
+                        "Name": "2",
+                        "Desc": "default tab size",
+                        "CssClass": "mark-desc"
+                    }
+                ]
+            },
+            {
+                "Nr": 9,
+                "CodeFormat": "Format On Save and Paste: {0}",
+                "CodeParams": [
+                    {
+                        "Name": "on",
+                        "Desc": "default on",
+                        "CssClass": "mark-desc"
+                    }
+                ]
+            },
+            {
+                "Nr": 10,
+                "CodeFormat": "File Icon Theme: {0}",
+                "CodeParams": [
+                    {
+                        "Name": "Seti",
+                        "Desc": "new default",
+                        "CssClass": "mark-desc"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Chrome Console",
+        "Codes": [
+            {
+                "Nr": 11,
+                "CodeFormat": "Open by F12"
+            },
+            {
+                "Nr": 12,
+                "CodeFormat": "Open by Ctrl+Shift+I"
+            },
+            {
+                "Nr": 13,
+                "CodeFormat": "Open by Right Click->Inspect/Zbadaj"
+            },
+            {
+                "Nr": 14,
+                "CodeFormat": "Open by 3 dots menu->More Tools->Developer Tools"
+            },
+            {
+                "Nr": 15,
+                "CodeFormat": "Increase Font size: Ctrl+- or mouse wheel and give more space"
+            },
+            {
+                "Nr": 16,
+                "CodeFormat": "type: alert('Hello World!')"
+            },
+            {
+                "Nr": 17,
+                "CodeFormat": "let js = 'amazing'"
+            },
+            {
+                "Nr": 18,
+                "CodeFormat": "if (js === 'amazing') alert('JavaScript is FUN!')"
+            },
+            {
+                "Nr": 19,
+                "CodeFormat": "let js = 'boring'"
+            },
+            {
+                "Nr": 20,
+                "CodeFormat": "up arrow to cycle commands"
+            },
+            {
+                "Nr": 21,
+                "CodeFormat": "40+8+23-10"
+            }
+        ]
+    },
+    {
+        "Title": "JavaScript",
+        "Codes": [
+            {
+                "Nr": 22,
+                "CodeFormat": "High level, object oriented, multi paradigm programming language"
+            },
+            {
+                "Nr": 23,
+                "CodeFormat": "programming language - instruct computer to do things"
+            },
+            {
+                "Nr": 24,
+                "CodeFormat": "high level - no memory menagement, no assembler, yes to many abstractions over low stuff"
+            },
+            {
+                "Nr": 25,
+                "CodeFormat": "object oriented - based on objects fot storing most kinds of data"
+            },
+            {
+                "Nr": 26,
+                "CodeFormat": "multi styles, for ex imperative, declarative, of structuring code"
+            }
+        ]
+    },
+    {
+        "Title": "The Role of JavaScript",
+        "Codes": [
+            {
+                "Nr": 27,
+                "CodeFormat": "Html - Content, Nouns, 'paragraph'"
+            },
+            {
+                "Nr": 28,
+                "CodeFormat": "Css - Presentation, Adjectives, 'is red'"
+            },
+            {
+                "Nr": 29,
+                "CodeFormat": "Js - Programming Language of web apps, Verbs, 'hide'"
+            }
+        ]
+    },
+    {
+        "Title": "What to do with it",
+        "Codes": [
+            {
+                "Nr": 30,
+                "CodeFormat": "Front end apps (browser, this course), frameworks like React, Angular, View, KNOW JAVASCRIPT WELL BEFORE FRAMEWORKS"
+            },
+            {
+                "Nr": 31,
+                "CodeFormat": "Back end apps (web apps on web servers), interacts with db, Node.js"
+            },
+            {
+                "Nr": 32,
+                "CodeFormat": "Native Mobile apps, React Native, Ionic"
+            },
+            {
+                "Nr": 33,
+                "CodeFormat": "Native Desktop apps, Electron"
+            }
+        ]
+    },
+    {
+        "Title": "JavaScript Releases",
+        "Codes": [
+            {
+                "Nr": 34,
+                "CodeFormat": "ES5 (ECMAScript)"
+            },
+            {
+                "Nr": 35,
+                "CodeFormat": "ES6 (biggest update 2015) - ES11 (2020)... - Modern JavaScript"
+            }
+        ]
+    },
+    {
+        "Title": "Writing code in this tutorials",
+        "Codes": [
+            {
+                "Nr": 36,
+                "CodeFormat": "<a href='https://github.com/jonasschmedtmann/complete-javascript-course'>Course GitHub Repo</a>"
+            },
+            {
+                "Nr": 37,
+                "CodeFormat": "take starting code, write your own, compare with final"
+            }
+        ]
+    },
+    {
+        "Title": "Data Types",
+        "Codes": [
+            {
+                "Nr": 38,
+                "CodeFormat": "Value is Object or Primitive"
+            },
+            {
+                "Nr": 39,
+                "CodeFormat": "7 Primitives, 3 base and 4 rest"
+            },
+            {
+                "Nr": 40,
+                "CodeFormat": "Number - floating point numbers used for decimals and integers"
+            },
+            {
+                "Nr": 41,
+                "CodeFormat": "String - sequence of characters used for text"
+            },
+            {
+                "Nr": 42,
+                "CodeFormat": "Boolean - true or false used for decisions"
+            },
+            {
+                "Nr": 43,
+                "CodeFormat": "Undefined - undefined variable value (empty)"
+            },
+            {
+                "Nr": 44,
+                "CodeFormat": "Null"
+            },
+            {
+                "Nr": 45,
+                "CodeFormat": "Symbol - immutable and unique"
+            },
+            {
+                "Nr": 46,
+                "CodeFormat": "BigInt - larger integers than Number can hold"
+            },
+            {
+                "Nr": 47,
+                "CodeFormat": "dynamic typing - value has type, not variable,<br> variable can be assign/reassign to any type/value,<br> also undefined in type and value"
+            },
+            {
+                "Nr": 48,
+                "CodeFormat": "Comment - //, Ctrl+/ in VSCode, /**/"
+            },
+            {
+                "Nr": 49,
+                "CodeFormat": "typeof - used on variable or value"
+            },
+            {
+                "Nr": 50,
+                "CodeFormat": "language bug - typeof null return object (it's not)"
+            }
+        ]
+    },
+    {
+        "Title": "3 ways to declare variable",
+        "Codes": [
+            {
+                "Nr": 51,
+                "CodeFormat": "let - mutable or initialy empty"
+            },
+            {
+                "Nr": 52,
+                "CodeFormat": "const - immutable, not change, no reassign, no empty"
+            },
+            {
+                "Nr": 53,
+                "CodeFormat": "var - old, never use"
+            },
+            {
+                "Nr": 54,
+                "CodeFormat": "not using let will define variable in global scope, dont"
+            }
+        ]
+    },
+    {
+        "Title": "Operator - transform or combine values",
+        "Codes": [
+            {
+                "Nr": 55,
+                "CodeFormat": "arithmetic/math oper."
+            },
+            {
+                "Nr": 56,
+                "CodeFormat": "concatenation"
+            },
+            {
+                "Nr": 57,
+                "CodeFormat": "assignment's"
+            },
+            {
+                "Nr": 58,
+                "CodeFormat": "comparision's"
+            },
+            {
+                "Nr": 59,
+                "CodeFormat": "<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence'>Operator Precedence</a>"
             }
         ]
     }
