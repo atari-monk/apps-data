@@ -1,29 +1,69 @@
 [
     {
-        "Title": ""
-    },
-    {
-        "Title": "",
+        "Title": "Switch",
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": ""
+                "CodeFormat": "switch (day) {<br>case 'monday': // day === 'monday'<br>break;<br>...default: }"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "case statements stack up"
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "for strict equality"
             }
         ]
     },
     {
-        "Title": "",
+        "Title": "Statements and Expressions",
         "Codes": [
             {
-                "Nr": 1,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
+                "Nr": 4,
+                "CodeFormat": "Expressions - produces a value; 3 + 4, 1991, true && false"
+            },
+            {
+                "Nr": 5,
+                "CodeFormat": "Statements - if, switch, actions, full sentence"
+            },
+            {
+                "Nr": 6,
+                "CodeFormat": "For example {} in `` takes only expressions."
+            }
+        ]
+    },
+    {
+        "Title": "Conditional (Ternary) operator",
+        "Codes": [
+            {
+                "Nr": 7,
+                "CodeFormat": "const drink = age >= 18 ? 'wine' : 'tea'"
+            },
+            {
+                "Nr": 8,
+                "CodeFormat": "it can be expression like above and use in `${}`"
+            }
+        ]
+    },
+    {
+        "Title": "JavaScript Releases",
+        "Codes": [
+            {
+                "Nr": 9,
+                "CodeFormat": "History of JS: 1995 Netscape browser language, 96 Microsoft copy in IE, 97 standarisation ECMAScript 1, 2009 ES5, 2015 ES6 biggest update, yearly release cycle ES2016-..."
+            },
+            {
+                "Nr": 10,
+                "CodeFormat": "Backwards compatible accros ES versions, don't break the web, nothing removed, only added."
+            },
+            {
+                "Nr": 11,
+                "CodeFormat": "ES5 - supported in all browsers,<br>ES6/ES2015->ES2020 - well supported in modern browsers<br>ESNext - future versions (new features that reched Stage 4)"
+            },
+            {
+                "Nr": 12,
+                "CodeFormat": "Development - use latest Chrome<br>Production: use Babel to transpile/polyfill code (more compatibility or future features)"
             }
         ]
     }
