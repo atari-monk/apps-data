@@ -1,29 +1,100 @@
 [
     {
-        "Title": ""
-    },
-    {
-        "Title": "",
+        "Title": "String",
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": ""
+                "CodeFormat": "template literals - use `` (below escape)"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "for example: const bla = 'I/'m ${firstName}';"
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "any expression in {}"
+            },
+            {
+                "Nr": 4,
+                "CodeFormat": "JavaScript has multiline strings support in template literals using ``"
             }
         ]
     },
     {
-        "Title": "",
+        "Title": "Type Conversion/Coercion",
         "Codes": [
             {
-                "Nr": 1,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
+                "Nr": 5,
+                "CodeFormat": "Conversion - manually change type, Number('18')"
+            },
+            {
+                "Nr": 6,
+                "CodeFormat": "Coercion - implicitly change type automatically"
+            },
+            {
+                "Nr": 7,
+                "CodeFormat": "Coercion - example is number beetwen strings and + operator are converted to strings"
+            }
+        ]
+    },
+    {
+        "Title": "Falsy values - values that will be converted to false when converting to boolean, Thruthly values convert to true, for example numbers.",
+        "Codes": [
+            {
+                "Nr": 8,
+                "CodeFormat": "x: { 0, '', undefined, null, NaN }, Boolean(x) = False"
+            },
+            {
+                "Nr": 9,
+                "CodeFormat": "mostly coercion in if's"
+            }
+        ]
+    },
+    {
+        "Title": "Equality operators == vs ===",
+        "Codes": [
+            {
+                "Nr": 10,
+                "CodeFormat": "'18' == 18, true, does type coercion, loose, avoid like it dosent exist"
+            },
+            {
+                "Nr": 11,
+                "CodeFormat": "'18' === 18, false, doesnt do type coercion, strict, use this one"
+            },
+            {
+                "Nr": 12,
+                "CodeFormat": "!== strict diffrent operator (use strict)"
+            }
+        ]
+    },
+    {
+        "Title": "prompt(question)",
+        "Codes": [
+            {
+                "Nr": 13,
+                "CodeFormat": "Input from user"
+            },
+            {
+                "Nr": 14,
+                "CodeFormat": "use conversion like: Number(prompt(question)) to get number, use === for Equality"
+            }
+        ]
+    },
+    {
+        "Title": "Control flow",
+        "Codes": [
+            {
+                "Nr": 15,
+                "CodeFormat": "if(condition) {} else if (condition) {} ... else if (condition) {} else {}"
+            }
+        ]
+    },
+    {
+        "Title": "Logical operators",
+        "Codes": [
+            {
+                "Nr": 16,
+                "CodeFormat": "and, or, not: &&, ||, !"
             }
         ]
     }
