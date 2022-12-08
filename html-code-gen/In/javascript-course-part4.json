@@ -1,6 +1,111 @@
 [
     {
-        "Title": ""
+        "Title": "Strict Mode, use it to produce better code",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "'use strict';"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "more errors info, block some features to work with less problems"
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "not defined variables are trown as exceptions"
+            },
+            {
+                "Nr": 4,
+                "CodeFormat": "reserves some words as future lang features"
+            }
+        ]
+    },
+    {
+        "Title": "Functions - like variable/container for chunk of code",
+        "Codes": [
+            {
+                "Nr": 5,
+                "CodeFormat": "function logger() { ... }"
+            },
+            {
+                "Nr": 6,
+                "CodeFormat": "logger();<br>logger();<br>logger()"
+            },
+            {
+                "Nr": 7,
+                "CodeFormat": "Code reuse"
+            },
+            {
+                "Nr": 8,
+                "CodeFormat": "input, output; analogy to machine"
+            },
+            {
+                "Nr": 9,
+                "CodeFormat": "function logger(x,y) { const z = `${x},${y}`; return z; }"
+            },
+            {
+                "Nr": 10,
+                "CodeFormat": "const valz = logger(valx,valy);"
+            },
+            {
+                "Nr": 11,
+                "CodeFormat": "Allow more maintanable code, DRY - dont repeat yourself"
+            },
+            {
+                "Nr": 12,
+                "CodeFormat": "Functions can call functions."
+            }
+        ]
+    },
+    {
+        "Title": "Functions Declarations VS Expressions",
+        "Codes": [
+            {
+                "Nr": 12,
+                "CodeFormat": "Declaration is named function as shown in above section point."
+            },
+            {
+                "Nr": 13,
+                "CodeFormat": "Function Expression is annonymous function that can be stored as variable."
+            },
+            {
+                "Nr": 14,
+                "CodeFormat": "const calcAge = function (birthYear) { return 2037 - birthYear; }"
+            },
+            {
+                "Nr": 15,
+                "CodeFormat": "const age = calcAge(1991);"
+            },
+            {
+                "Nr": 16,
+                "CodeFormat": "Function Declarations can be called/used before it's declaration. (unlike Functions Expressions)"
+            },
+            {
+                "Nr": 17,
+                "CodeFormat": "Use what you preffer."
+            }
+        ]
+    },
+    {
+        "Title": "Arrow Functions",
+        "Codes": [
+            {
+                "Nr": 18,
+                "CodeFormat": "const calcAge = birthYear => 2037 - birthYear"
+            },
+            {
+                "Nr": 19,
+                "CodeFormat": "calcAge(1991);"
+            },
+            {
+                "Nr": 20,
+                "CodeFormat": "const yearsUntilRetirement = (birthYear, firstName)<br> => {<br>const age = 2037 - birthYear;<br>const retirement = 65 - age;<br>return `${firstName}:${retirement}`;<br>}"
+            },
+            {
+                "Nr": 21,
+                "CodeFormat": "fit for one liners"
+            }
+        ]
     },
     {
         "Title": "",
@@ -16,14 +121,88 @@
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
+                "CodeFormat": ""
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
+            }
+        ]
+    },
+    {
+        "Title": "",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": ""
             }
         ]
     }
