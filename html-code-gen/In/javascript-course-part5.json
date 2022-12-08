@@ -1,145 +1,43 @@
 [
     {
-        "Title": "",
+        "Title": "Objects",
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": ""
+                "CodeFormat": "const jonas = {<br>firstName: 'Jonas',<br>lastName: 'Schmedtmann',<br>age: 2037 - 1991,<br>job: 'teacher',<br>friends: ['Michael', 'Peter', 'Steven']<br>}"
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "Arrays - ordered data, Objects - unstructured data as order of acces doesnt matter"
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "/*Read:*/ jonas.lastName, jonas['lastName'], jonas[expression], jonas.friends[0], jonas.friends.length"
+            },
+            {
+                "Nr": 4,
+                "CodeFormat": "/*Add:*/ jonas.lastName = 'x', jonas['lastName'] = 'y', jonas[expression] = 'z'"
             }
         ]
     },
     {
-        "Title": "",
+        "Title": "Objects Methods",
         "Codes": [
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
+                "Nr": 5,
+                "CodeFormat": "function can be added to object, calcAge: function() {}"
+            },
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
+                "Nr": 6,
+                "CodeFormat": "Access: jonas.calcAge(1991); jonas.['calcAge'](1991);"
+            },
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
+                "Nr": 7,
+                "CodeFormat": "Use this. to access object instance in object's methods."
+            },
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
+                "Nr": 8,
+                "CodeFormat": "Use this.x = expression; to create new objects property in object's methods.<br>This way you can invoke method once and then get value from created property next time."
             }
         ]
     }
