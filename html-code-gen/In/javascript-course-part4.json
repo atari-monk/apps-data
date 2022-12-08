@@ -61,27 +61,27 @@
         "Title": "Functions Declarations VS Expressions",
         "Codes": [
             {
-                "Nr": 12,
+                "Nr": 13,
                 "CodeFormat": "Declaration is named function as shown in above section point."
             },
             {
-                "Nr": 13,
+                "Nr": 14,
                 "CodeFormat": "Function Expression is annonymous function that can be stored as variable."
             },
             {
-                "Nr": 14,
+                "Nr": 15,
                 "CodeFormat": "const calcAge = function (birthYear) { return 2037 - birthYear; }"
             },
             {
-                "Nr": 15,
+                "Nr": 16,
                 "CodeFormat": "const age = calcAge(1991);"
             },
             {
-                "Nr": 16,
+                "Nr": 17,
                 "CodeFormat": "Function Declarations can be called/used before it's declaration. (unlike Functions Expressions)"
             },
             {
-                "Nr": 17,
+                "Nr": 18,
                 "CodeFormat": "Use what you preffer."
             }
         ]
@@ -90,119 +90,74 @@
         "Title": "Arrow Functions",
         "Codes": [
             {
-                "Nr": 18,
+                "Nr": 19,
                 "CodeFormat": "const calcAge = birthYear => 2037 - birthYear"
             },
             {
-                "Nr": 19,
+                "Nr": 20,
                 "CodeFormat": "calcAge(1991);"
             },
             {
-                "Nr": 20,
+                "Nr": 21,
                 "CodeFormat": "const yearsUntilRetirement = (birthYear, firstName)<br> => {<br>const age = 2037 - birthYear;<br>const retirement = 65 - age;<br>return `${firstName}:${retirement}`;<br>}"
             },
             {
-                "Nr": 21,
+                "Nr": 22,
                 "CodeFormat": "fit for one liners"
             }
         ]
     },
     {
-        "Title": "",
+        "Title": "Arrays",
         "Codes": [
             {
-                "Nr": 1,
-                "CodeFormat": ""
+                "Nr": 23,
+                "CodeFormat": "Create: const friends = ['Michael', 'Steven', 'Peter']; (cant reassign array)"
+            },
+            {
+                "Nr": 24,
+                "CodeFormat": "Create: const years = new Array('1991', '1984', '2008', '2020');"
+            },
+            {
+                "Nr": 25,
+                "CodeFormat": "Read: years[0]; years[2]; years.length; years[years.length - 1]"
+            },
+            {
+                "Nr": 26,
+                "CodeFormat": "Update: friends[2] = 'Jay';"
+            },
+            {
+                "Nr": 27,
+                "CodeFormat": "Values, Expressions, Variables, Arrays, Functions can be used as elements of Array."
             }
         ]
     },
     {
-        "Title": "",
+        "Title": "Array Methods",
         "Codes": [
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
+                "Nr": 28,
+                "CodeFormat": "/*Add to end:*/ const newLength = friends.push('Jay');"
+            },
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
+                "Nr": 28,
+                "CodeFormat": "/*Add to beginning:*/ const newLength = friends.unshift('John');"
+            },
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
+                "Nr": 29,
+                "CodeFormat": "/*Remove last:*/ const poped = friends.pop('Jay');"
+            },
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
+                "Nr": 30,
+                "CodeFormat": "/*Remove first:*/ const removed = friends.shift();"
+            },
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
+                "Nr": 31,
+                "CodeFormat": "/*Index:*/ const index = friends.indexOf('Steven');"
+            },
             {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
+                "Nr": 32,
+                "CodeFormat": "/*Exists:*/ const isIn = friends.includes('Bob); /*uses ===*/"
             }
         ]
     }
