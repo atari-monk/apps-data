@@ -1,30 +1,117 @@
 [
-    {
-        "Title": ""
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
+  {
+    "Title": "Loops - control statements automating repetitions (Video 6, Vid 1-6 - Fundamentals)",
+    "Codes": [
+      {
+        "Nr": 1,
+        "CodeFormat": "for (let i=1; i<=10; i++){}"
+      },
+      {
+        "Nr": 2,
+        "CodeFormat": "let i = 1;<br>while(i <= 10) {<br> i++; <br>};<br>Use when number of iteration is unknown."
+      }
+    ]
+  },
+  {
+    "Title": "Configure VSCode (Video 7)",
+    "Codes": [
+      {
+        "Nr": 3,
+        "CodeFormat": "Install Prettier extension (formatter), Settings -> set it as 'default formatter', trun on format on save"
+      },
+      {
+        "Nr": 4,
+        "CodeFormat": "configure Prettier by adding json named .prettierrc; add options 'singleQuote' : true, 'arrowParens': 'avoid';<br>Formatter makes code look consistent."
+      },
+      {
+        "Nr": 5,
+        "CodeFormat": "File->Preferances->Confugure User Snippets, New file, name it, uncommend Print to console. Edit it to use prefix 'cl' + Tab to have console.log(); snippet."
+      }
+    ]
+  },
+  {
+    "Title": "Install Live Server extension.",
+    "Codes": [
+      {
+        "Nr": 6,
+        "CodeFormat": "In VSCode extension manager."
+      },
+      {
+        "Nr": 7,
+        "CodeFormat": "Using node.js and npm:"
+      },
+      {
+        "Nr": 8,
+        "CodeFormat": "node -v",
+        "CodeParams": [
+          {
+            "Desc": "allready Installed",
+            "CssClass": "mark-desc"
+          }
         ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
-            }
-        ]
-    }
+      },
+      {
+        "Nr": 9,
+        "CodeFormat": "npm install live-server -g"
+      },
+      {
+        "Nr": 10,
+        "CodeFormat": "live-server"
+      }
+    ]
+  },
+  {
+    "Title": "Learning coding",
+    "Codes": [
+      {
+        "Nr": 11,
+        "CodeFormat": "Have a clear goal."
+      },
+      {
+        "Nr": 12,
+        "CodeFormat": "Understand and type code from tutorials."
+      },
+      {
+        "Nr": 13,
+        "CodeFormat": "Learn and reinforce with notes and exercises (calculate something personal, codewars page)."
+      },
+      {
+        "Nr": 14,
+        "CodeFormat": "Code your own projects."
+      },
+      {
+        "Nr": 15,
+        "CodeFormat": "Dont obsess about clean code or that you will never know everything."
+      },
+      {
+        "Nr": 16,
+        "CodeFormat": "Dont learn in isolation. Some community is beneficial."
+      },
+      {
+        "Nr": 17,
+        "CodeFormat": "Only fixing problems and never stoping it, will make you competent. Learning never stops."
+      }
+    ]
+  },
+  {
+    "Title": "Solving problems",
+    "Codes": [
+      {
+        "Nr": 18,
+        "CodeFormat": "1. 100% understand clear picture of the problem."
+      },
+      {
+        "Nr": 19,
+        "CodeFormat": "2. Divide and conquer: break big into smaller sub-problems."
+      },
+      {
+        "Nr": 20,
+        "CodeFormat": "3. Research as much as you have to."
+      },
+      {
+        "Nr": 21,
+        "CodeFormat": "4. For bigger problems, write pseudo-code before actual code."
+      }
+    ]
+  }
 ]
