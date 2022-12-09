@@ -113,5 +113,22 @@
         "CodeFormat": "4. For bigger problems, write pseudo-code before actual code."
       }
     ]
+  },
+  {
+    "Title": "Debugging",
+    "Codes": [
+      {
+        "Nr": 1,
+        "CodeFormat": "Identify, Find, Fix, Prevent Bug."
+      },
+      {
+        "Nr": 2,
+        "CodeFormat": "Chrome F12, Sources tab, .js file, add breakpoints, "
+      },
+      {
+        "Nr": 3,
+        "CodeFormat": "In code add (debugger:) line to get a breakpont."
+      }
+    ]
   }
 ]
