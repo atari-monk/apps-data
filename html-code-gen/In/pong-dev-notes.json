@@ -26,5 +26,22 @@
                 ]
             }
         ]
+    },
+    {
+        "Title": "Coding Session",
+        "Codes": [
+            {
+                "Nr": 1,
+                "CodeFormat": "Bug Fix: canvas id in SecondPlayer class."
+            },
+            {
+                "Nr": 2,
+                "CodeFormat": "Move score text to infoCanvas."
+            },
+            {
+                "Nr": 3,
+                "CodeFormat": "Move player scores to player sides (left, right) and chnage color to mach player color."
+            }
+        ]
     }
 ]
