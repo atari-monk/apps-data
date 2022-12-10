@@ -71,6 +71,10 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\path-sys-var.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\path-sys-var.html"
     },
+    "pong-dev-notes": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\pong-dev-notes.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\pong-dev-notes.html"
+    },
     "python-beginner-tutorial": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\python-beginner-tutorial.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\python-beginner-tutorial.html"
