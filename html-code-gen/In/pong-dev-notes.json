@@ -32,7 +32,7 @@
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": "Bug Fix: canvas id in SecondPlayer class."
+                "CodeFormat": "Bug Fix: wrong canvas id in SecondPlayer class."
             },
             {
                 "Nr": 2,
@@ -40,7 +40,19 @@
             },
             {
                 "Nr": 3,
-                "CodeFormat": "Move player scores to player sides (left, right) and chnage color to mach player color."
+                "CodeFormat": "Bug Fix: info canvas doesnt clean old paint."
+            },
+            {
+                "Nr": 4,
+                "CodeFormat": "Move player scores to player sides (left, right) and chnage color to mach player."
+            },
+            {
+                "Nr": 5,
+                "CodeFormat": "Bug Fix: In Wall Collision Test. Update Game ctr (second canvas)."
+            },
+            {
+                "Nr": 6,
+                "CodeFormat": "Bug Fix: In Player Test. Separation of Game and GameInfo and their factories."
             }
         ]
     }
