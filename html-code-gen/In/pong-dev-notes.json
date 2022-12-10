@@ -28,11 +28,11 @@
         ]
     },
     {
-        "Title": "Coding Session",
+        "Title": "Coding Session. Return after weeks. Fixin stuff after introduction of second canvas (for text). ",
         "Codes": [
             {
                 "Nr": 1,
-                "CodeFormat": "Bug Fix: wrong canvas id in SecondPlayer class."
+                "CodeFormat": "Bug Fix: Wrong canvas id in main Game."
             },
             {
                 "Nr": 2,
@@ -40,19 +40,19 @@
             },
             {
                 "Nr": 3,
-                "CodeFormat": "Bug Fix: info canvas doesnt clean old paint."
+                "CodeFormat": "Bug Fix: Info canvas doesnt clean old paint."
             },
             {
                 "Nr": 4,
-                "CodeFormat": "Move player scores to player sides (left, right) and chnage color to mach player."
+                "CodeFormat": "Move player scores to player sides (left, right) and change color to match player."
             },
             {
                 "Nr": 5,
-                "CodeFormat": "Bug Fix: In Wall Collision Test. Update Game ctr (second canvas)."
+                "CodeFormat": "Bug Fix: In Wall Collision Test. Update Game ctr (add second canvas)."
             },
             {
                 "Nr": 6,
-                "CodeFormat": "Bug Fix: In Player Test. Separation of Game and GameInfo and their factories."
+                "CodeFormat": "Bug Fix: In Player Test. Separation of Game, GameInfo and their factories."
             }
         ]
     }
