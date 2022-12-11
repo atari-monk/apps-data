@@ -1,59 +1,44 @@
 [
-    {
-        "Title": ""
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": ""
-            }
-        ]
-    },
-    {
-        "Title": "",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": "",
-                "CodeParams": [
-                    {
-                        "Name": "",
-                        "Desc": "",
-                        "CssClass": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Title": "Coding Session. Return after weeks. Fixin stuff after introduction of second canvas (for text). ",
-        "Codes": [
-            {
-                "Nr": 1,
-                "CodeFormat": "Bug Fix: Wrong canvas id in main Game."
-            },
-            {
-                "Nr": 2,
-                "CodeFormat": "Move score text to infoCanvas."
-            },
-            {
-                "Nr": 3,
-                "CodeFormat": "Bug Fix: Info canvas doesnt clean old paint."
-            },
-            {
-                "Nr": 4,
-                "CodeFormat": "Move player scores to player sides (left, right) and change color to match player."
-            },
-            {
-                "Nr": 5,
-                "CodeFormat": "Bug Fix: In Wall Collision Test. Update Game ctr (add second canvas)."
-            },
-            {
-                "Nr": 6,
-                "CodeFormat": "Bug Fix: In Player Test. Separation of Game, GameInfo and their factories."
-            }
-        ]
-    }
+  {
+    "Title": "Coding Session 10.12.2022.<br>Return after weeks.<br>Fixin stuff after introduction of second canvas for text.",
+    "Codes": [
+      {
+        "Nr": 1,
+        "CodeFormat": "Bugs in main Game (bad name SecondPlayer).<br>Wrong canvas id.<br>Move score to text Canvas.<br>Text canvas didnt clean old paint.<br>Move player scores to player sides (left, right) and change color to match player."
+      },
+      {
+        "Nr": 2,
+        "CodeFormat": "In Wall Collision Test.<br>Add text canvas to Game ctor. A mistake. Removed."
+      },
+      {
+        "Nr": 3,
+        "CodeFormat": "In Player Test. Separation of Game, GameInfo and their factories.<br>Later this turned out to be not needed, a mistake."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 11.12.2022.<br>Fixin stuff after introduction of second canvas for text.",
+    "Codes": [
+      {
+        "Nr": 4,
+        "CodeFormat": "Remove text canvas from Game class."
+      },
+      {
+        "Nr": 5,
+        "CodeFormat": "In Collision Left Test.<br>Separete class CollisionLeftTestInfoFactory.<br>Probably not needed mistake."
+      },
+      {
+        "Nr": 6,
+        "CodeFormat": "In Wall Collision Test.<br>Fix Game ctor."
+      },
+      {
+        "Nr": 7,
+        "CodeFormat": "In Player Test.<br>Fix Game ctor.<br>Move text to text canvas.<br>Update PlayerPrinter by moving description method to player class.<br>Facepalm, all printer classes are prolly to be removed as useless becouse these where game classes methods to begin with."
+      },
+      {
+        "Nr": 8,
+        "CodeFormat": "In Wall Collision Test.<br>Create Ball description method in ball instead in BallPrinter.<br>Seperate layer for this is not needed here and now."
+      }
+    ]
+  }
 ]
