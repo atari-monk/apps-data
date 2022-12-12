@@ -37,7 +37,7 @@
       },
       {
         "Nr": 8,
-        "CodeFormat": "In Wall Collision Test.<br>Create Ball description method in ball instead in BallPrinter.<br>Seperate layer for this is not needed here and now."
+        "CodeFormat": "In Wall Collision Test.<br>Create Ball description method in ball instead in BallPrinter.<br>Seperate layer for this was a mistake at this point."
       }
     ]
   }
