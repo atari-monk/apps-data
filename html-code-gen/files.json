@@ -51,9 +51,13 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\javascript-course-part5.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\javascript-course-part5.html"
     },
-    "javascript-course-part6&7": {
-        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\javascript-course-part6&7.json",
-        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\javascript-course-part6&7.html"
+    "javascript-course-part6-7": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\javascript-course-part6-7.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\javascript-course-part6-7.html"
+    },
+    "javascript-course-part8-11": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\javascript-course-part8-11.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\javascript-course-part8-11.html"
     },
     "new-github-repo": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\new-github-repo.json",

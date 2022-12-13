@@ -1,0 +1,91 @@
+[
+  {
+    "Title": "Part 8 skiped as to simple for any gain."
+  },
+  {
+    "Title": "Part 9&10 is simple apps to learn DOM manipulation. In repo."
+  },
+  {
+    "Title": "DOM - Document Object Model<br>Structured representation of html.<br>Allows JavaScript access to html elements and styles to manipulate them.",
+    "Codes": [
+      {
+        "Nr": 1,
+        "CodeFormat": "For example, change text, html attributes, css styles."
+      },
+      {
+        "Nr": 2,
+        "CodeFormat": "Html is translated to DOM tree structure."
+      },
+      {
+        "Nr": 3,
+        "CodeFormat": "DOM is one of Web Api's witch browsers implement and javascript can interact with."
+      }
+    ]
+  },
+  {
+    "Title": "Part 11 is 'how it works under the hood' kind.<br>JS Engine:",
+    "Codes": [
+      {
+        "Nr": 4,
+        "CodeFormat": "JS Engine - executes js code. (ex. V8 Engine used in chrorme and node.js)"
+      },
+      {
+        "Nr": 5,
+        "CodeFormat": "Engine - call stack (excecutes code in execution context), heap (objects in memory)"
+      },
+      {
+        "Nr": 6,
+        "CodeFormat": "compilation: source code->bin file with machine code (1 and 0's)->execution"
+      },
+      {
+        "Nr": 7,
+        "CodeFormat": "interpreter: source code->executing line by line with conversion to machine code"
+      },
+      {
+        "Nr": 8,
+        "CodeFormat": "JS uses JIT compilation. Compiles to machine code and executes. (No bin file)"
+      },
+      {
+        "Nr": 9,
+        "CodeFormat": "JS JIT compilation: Parsing (reading with specific rules) produces AST (Abstract Syntax Tree).<br>AST is tree like data structure with language parts used to generate machine code (representation of a language).<br>Compilation is generating machine code from AST.<br>This gets executed, also it is optimized and recompiled during excecution to run code faster."
+      },
+      {
+        "Nr": 10,
+        "CodeFormat": "Runtime in browser: JS Engine, WEB APIs (DOM, Timers, Fetch API, ...),<br> Callback Queue (for ex. callback for DOM event like click), Event Loop)."
+      },
+      {
+        "Nr": 11,
+        "CodeFormat": "Runtime in Node.js: no web api's from browser, instead c++ bindings & thread pool."
+      }
+    ]
+  },
+  {
+    "Title": "How code executes in JS Engine",
+    "Codes": [
+      {
+        "Nr": 12,
+        "CodeFormat": "Global execution context (for top level code).<br>Execute top level code.<br>Execution of functions (creates one execution context per function) and waiting for callbacks (events loop). Call stack is all these execution context's."
+      },
+      {
+        "Nr": 13,
+        "CodeFormat": "Execution context: Variable environment (variable declarations, functions, arguments object), scope chain, this keyword.<br>Arrow functions dont have their own arguments object and this keyword, they inherit those from parent standard functions."
+      },
+      {
+        "Nr": 14,
+        "CodeFormat": "For example for code that has global part and 2 functions,<br>one global context and 2 function contexts.<br>There are values that are known only after executing those in right order."
+      },
+      {
+        "Nr": 15,
+        "CodeFormat": "Example: global code with call to first function, witch calls secode function for some value.<br>Call stack is produced.<br>Global goes first, on top first(), on top second().<br>JS has only one THREAD!<br>second() is run and poped of the stack, then first(), then global(). Broweser closed closes global."
+      },
+      {
+        "Nr": 16,
+        "CodeFormat": "Scoping. Where variable is declared and used. Global, local (function), block (function, if, loop, ...).<br>All scope have parent and can search it if they need variable they dont have. Variable lookup in scope chain (only in parent, up direction).<br>Var(obsolete) is function scoped.<br>Let and const is block scoped."
+      },
+      {
+        "Nr": 17,
+        "CodeFormat": "Hoisting. Variable useable before they are declared.<br>'They are lifted to top of their scope'.<br>Function declarations are hoisted.<br>let and const are not hoisted (usable after declaration in code). All this is true in Strict mode witch should be allways used."
+      }
+    ]
+  }
+]
