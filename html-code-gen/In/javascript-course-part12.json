@@ -1,0 +1,215 @@
+[
+  {
+    "Title": "Part 12; this keyword.",
+    "Codes": [
+      {
+        "Nr": 1,
+        "CodeFormat": "window - global JS object."
+      },
+      {
+        "Nr": 2,
+        "CodeFormat": "Created for every function execution context.<br>Points to 'owner' of function."
+      },
+      {
+        "Nr": 3,
+        "CodeFormat": "Method (atached to object) has this pointing to calling it object."
+      },
+      {
+        "Nr": 4,
+        "CodeFormat": "Function has this undefined in strict mode."
+      },
+      {
+        "Nr": 5,
+        "CodeFormat": "Arrow Function has this of parent/surrounding scope function."
+      },
+      {
+        "Nr": 6,
+        "CodeFormat": "Event listener has this pointing to DOM element."
+      },
+      {
+        "Nr": 7,
+        "CodeFormat": "console.log(this) proves that global this points to global window object."
+      },
+      {
+        "Nr": 8,
+        "CodeFormat": "Function is a variable so it can be assigned to variables.<br>It can be 'borowed' betwween objects or assigned from object to some global variable. Depending on from what context it's called, this will change accordingly."
+      }
+    ]
+  },
+  {
+    "Title": "Function vs Arrow Function in object",
+    "Codes": [
+      {
+        "Nr": 9,
+        "CodeFormat": "Arrow Function as method have this pointing to global window, not object.<br>Never use it as method."
+      },
+      {
+        "Nr": 10,
+        "CodeFormat": "To call function in method (object's function) use Arrow Function becouse then this will point to object as expected (when method or method expression will get undefined this)."
+      }
+    ]
+  },
+  {
+    "Title": "Primitives vs Reference Types",
+    "Codes": [
+      {
+        "Nr": 11,
+        "CodeFormat": "Primitives are stored in the callstack (execution contexts)."
+      },
+      {
+        "Nr": 12,
+        "CodeFormat": "Objects are stored in the heap."
+      },
+      {
+        "Nr": 13,
+        "CodeFormat": "Primitives has Identifiers pointing to address and value on callstack.<br>Identifiers can be assign to any address."
+      },
+      {
+        "Nr": 14,
+        "CodeFormat": "Objects have identifiers pointing to address and value on callstack, that value is address on the heap, pointing to object value."
+      },
+      {
+        "Nr": 15,
+        "CodeFormat": "to copy object: const objCopy = Object.assign({}, obj); (shallow copy - dosent copy internal objects)"
+      }
+    ]
+  },
+  {
+    "Title": "Part 13. Modern syntax. Destructuring Arrays. Gets variables from array.",
+    "Codes": [
+      {
+        "Nr": 16,
+        "CodeFormat": "const [x,y,z] = arr; is same as const a = arr[0];...;c = arr[2]"
+      },
+      {
+        "Nr": 17,
+        "CodeFormat": "const [x, ,z] = arr; to skip values."
+      },
+      {
+        "Nr": 18,
+        "CodeFormat": "let [x, ,z] = arr; [x,z] = [z,x]; to switch values in variables."
+      },
+      {
+        "Nr": 19,
+        "CodeFormat": "const [x, y] = f(); to get multiple values from function returning array."
+      },
+      {
+        "Nr": 20,
+        "CodeFormat": "const nested = [2, 4, [5, 6]]; const [i, , [j, k]] = nested;"
+      },
+      {
+        "Nr": 21,
+        "CodeFormat": "const [p = 1, q = 1, r = 1] = [8, 9]; this gets 8, 9, 1 (default values)"
+      }
+    ]
+  },
+  {
+    "Title": "Destructuring objects. Gets variables from object.",
+    "Codes": [
+      {
+        "Nr": 22,
+        "CodeFormat": "const { name, openningHours, categories } = obj; this takes values form object properties."
+      },
+      {
+        "Nr": 23,
+        "CodeFormat": "const { menu = [], starterMenu:starters = [] } = obj; change variable names, give default value in case no value."
+      },
+      {
+        "Nr": 24,
+        "CodeFormat": "const obj = { a: 23, b: 7, c: 12 }; ({a, b}) = obj; mutate variables when destructuring object."
+      },
+      {
+        "Nr": 25,
+        "CodeFormat": "const { fri: { open: o, close: c}} = openningHours; nested destructuring object with new variable names."
+      },
+      {
+        "Nr": 26,
+        "CodeFormat": "Destructuring object can be done as a parameter in function or method."
+      }
+    ]
+  },
+  {
+    "Title": "Array Spread operator",
+    "Codes": [
+      {
+        "Nr": 27,
+        "CodeFormat": "Useable on Iterables(not objects): arrays, strings, maps, sets and objects."
+      },
+      {
+        "Nr": 28,
+        "CodeFormat": "const newArr = [ 1, 2, ...arr]; expands arr elements to newArr."
+      },
+      {
+        "Nr": 29,
+        "CodeFormat": "console.log(...log); logs individual elements of array expanded into method."
+      },
+      {
+        "Nr": 30,
+        "CodeFormat": "const newMenu = [...restaurant.mainMenu, 'Gnocci']; spread when creating new array."
+      },
+      {
+        "Nr": 31,
+        "CodeFormat": "const arrCopy = [...arr]; simpler syntax for array copy."
+      },
+      {
+        "Nr": 32,
+        "CodeFormat": "const menu = [...obj.menuA, ...obj.menuB]; joining arrays."
+      },
+      {
+        "Nr": 33,
+        "CodeFormat": "const str = 'Jonas'; const letters = [...str, '', 'S.'];"
+      },
+      {
+        "Nr": 34,
+        "CodeFormat": "const objCopy = {...obj}; simpler syntax for object copy."
+      }
+    ]
+  },
+  {
+    "Title": "Rest operator",
+    "Codes": [
+      {
+        "Nr": 35,
+        "CodeFormat": "const arr = [1,2, ...[3, 4]]; spread - on right of ="
+      },
+      {
+        "Nr": 36,
+        "CodeFormat": "const [a, b, ...others] = [1, 2, 3, 4, 5]; destructuring with rest - on left of ="
+      },
+      {
+        "Nr": 37,
+        "CodeFormat": "const add = function (...numbers); aggregates any number of separete parameters to array numbers, also can be called with spread array."
+      },
+      {
+        "Nr": 38,
+        "CodeFormat": "const add = function (x, y, ...otherNumbers); gets 'unused' params to array in function."
+      }
+    ]
+  },
+  {
+    "Title": "Logic operators expanded",
+    "Codes": [
+      {
+        "Nr": 39,
+        "CodeFormat": "const x = obj.num || 10; 10 if undefined/0 (when falsey). Short circuts on first truethy."
+      },
+      {
+        "Nr": 40,
+        "CodeFormat": "obj.method && obj.method(x,y). Call method only if it exists. Short circuts on first falsey."
+      }
+    ]
+  },
+  {
+    "Title": "Null coalescing operator",
+    "Codes": [
+      {
+        "Nr": 41,
+        "CodeFormat": "const x = obj.num ?? 10; 10 when nullish: null, undefined."
+      },
+      {
+        "Nr": 42,
+        "CodeFormat": "||=, &&=, ??= are also in JS."
+      }
+    ]
+  }
+]
