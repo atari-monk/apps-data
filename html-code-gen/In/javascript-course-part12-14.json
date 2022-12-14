@@ -211,5 +211,64 @@
         "CodeFormat": "||=, &&=, ??= are also in JS."
       }
     ]
+  },
+  {
+    "Title": "Part 14, For of loop",
+    "Codes": [
+      {
+        "Nr": 43,
+        "CodeFormat": "faster syntax for loop"
+      },
+      {
+        "Nr": 44,
+        "CodeFormat": "<code>for (const item of menu)</code>"
+      },
+      {
+        "Nr": 45,
+        "CodeFormat": "<code>for (const [i, el] of menu.entries())</code>"
+      },
+      {
+        "Nr": 46,
+        "CodeFormat": "<code>[...menu.entries()]</code>"
+      }
+    ]
+  },
+  {
+    "Title": "Faster syntax for object literals (hard coded objects)",
+    "Codes": [
+      {
+        "Nr": 47,
+        "CodeFormat": "Object can be inserted into object without property name and it will be set to it's variable identifier."
+      },
+      {
+        "Nr": 48,
+        "CodeFormat": "<code>order(arg){ }</code> //Simpler syntax for methods"
+      },
+      {
+        "Nr": 49,
+        "CodeFormat": "<code>[any expression]</code> //Property names of object can be calculated."
+      }
+    ]
+  },
+  {
+    "Title": "Optional chaining",
+    "Codes": [
+      {
+        "Nr": 50,
+        "CodeFormat": "Condisions/ifs done on properties in one line when accessing them.<br>Returns undefined instead of exception."
+      },
+      {
+        "Nr": 51,
+        "CodeFormat": "<code>restaurant.openingHours?.mon?.open ?? 'some default value'</code>"
+      },
+      {
+        "Nr": 52,
+        "CodeFormat": "<code>restaurant.order?.(0, 1) ?? 'Method does not exist';</code>//Works also on methods."
+      },
+      {
+        "Nr": 53,
+        "CodeFormat": "users[0]?.name ?? 'User array empty'//Works also on arrays."
+      }
+    ]
   }
 ]
