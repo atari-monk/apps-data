@@ -270,5 +270,68 @@
         "CodeFormat": "users[0]?.name ?? 'User array empty'//Works also on arrays."
       }
     ]
+  },
+  {
+    "Title": "Looping objects: keys, values, entries",
+    "Codes": [
+      {
+        "Nr": 54,
+        "CodeFormat": "Object.keys(openingHours);"
+      },
+      {
+        "Nr": 55,
+        "CodeFormat": "Object.values(openingHours);"
+      },
+      {
+        "Nr": 56,
+        "CodeFormat": "Object.entries(openingHours);"
+      },
+      {
+        "Nr": 57,
+        "CodeFormat": "for (const [day, { open, close }] of entries)"
+      }
+    ]
+  },
+  {
+    "Title": "Sets",
+    "Codes": [
+      {
+        "Nr": 58,
+        "CodeFormat": "Collection of unique values. Iterable."
+      },
+      {
+        "Nr": 59,
+        "CodeFormat": "Use case is to remove duplicates from arrays."
+      }
+    ]
+  },
+  {
+    "Title": "Maps",
+    "Codes": [
+      {
+        "Nr": 60,
+        "CodeFormat": "Iterable, objects not."
+      },
+      {
+        "Nr": 61,
+        "CodeFormat": "Key value pairs like objects but keys are any type, not just strings."
+      },
+      {
+        "Nr": 62,
+        "CodeFormat": "Map.set returns map witch allows to chain .set(...)<br>.set(...).set(...)<br>.set(...)"
+      },
+      {
+        "Nr": 63,
+        "CodeFormat": "even array and object can be map key"
+      },
+      {
+        "Nr": 64,
+        "CodeFormat": "new Map([[key1, value1]...[keyn, valuen]])//alternative to set method."
+      },
+      {
+        "Nr": 65,
+        "CodeFormat": "Conversions Object=>Map, Map->Array of arrays"
+      }
+    ]
   }
 ]
