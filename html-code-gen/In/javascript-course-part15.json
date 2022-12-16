@@ -1,0 +1,40 @@
+[
+  {
+    "Title": "Data Structures summary",
+    "Codes": [
+      {
+        "Nr": 1,
+        "CodeFormat": "Data Source: hard coded in program (eg. status messages), input from UI, web API -> data collection -> data structure"
+      },
+      {
+        "Nr": 2,
+        "CodeFormat": "list -> Array or Sets, key/value pairs -> Objects or Maps"
+      },
+      {
+        "Nr": 3,
+        "CodeFormat": "Use Arrays for ordered value lists that might contain duplicates, or to manipulate data as it has many methods."
+      },
+      {
+        "Nr": 4,
+        "CodeFormat": "Use Sets for unique values and for high preformance, or to remove duplicates from arrays."
+      },
+      {
+        "Nr": 5,
+        "CodeFormat": "Use Objects when you need methods. Use with JSON."
+      },
+      {
+        "Nr": 6,
+        "CodeFormat": "Use Map when you need to map key to values. Use when keys are not strings."
+      }
+    ]
+  },
+  {
+    "Title": "Strings",
+    "Codes": [
+      {
+        "Nr": 7,
+        "CodeFormat": ""
+      }
+    ]
+  }
+]
