@@ -40,5 +40,14 @@
         "CodeFormat": "In Wall Collision Test.<br>Create Ball description method in ball instead in BallPrinter.<br>Seperate layer for this was a mistake at this point."
       }
     ]
+  },
+  {
+    "Title": "Coding Session 17.12.2022.<br>Try to stop the chaos.",
+    "Codes": [
+      {
+        "Nr": 9,
+        "CodeFormat": "Refactor Wall Collision Test to test each wall separately.<br>Refactor this test and it's all parts, to simplify where possible."
+      }
+    ]
   }
 ]
