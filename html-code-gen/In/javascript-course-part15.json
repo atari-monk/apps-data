@@ -55,6 +55,18 @@
       {
         "Nr": 11,
         "CodeFormat": "Higher order functions. Function that recives function as argument, that returns new function or both."
+      },
+      {
+        "Nr": 12,
+        "CodeFormat": "Callback functions passed to functions allow for levels of abstraction. Callback is lower level. Function calling them is higher level of abstraction delegating some computations to callback."
+      },
+      {
+        "Nr": 13,
+        "CodeFormat": "Call and applay methods.<br>Method can be stored in variable as function.<br>This to object on witch it is called is provided as argument of call function along with rest of the params.<br>Bind returns function with this set."
+      },
+      {
+        "Nr": 14,
+        "CodeFormat": "Bind can be used to bind function to object in event handlers, becouse this is pointing to DOM element by default in addEvent methods."
       }
     ]
   }
