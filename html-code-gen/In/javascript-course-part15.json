@@ -36,5 +36,26 @@
         "CodeFormat": "methods are case sensitive"
       }
     ]
+  },
+  {
+    "Title": "Part 16, Functions",
+    "Codes": [
+      {
+        "Nr": 8,
+        "CodeFormat": "Default Parameters."
+      },
+      {
+        "Nr": 9,
+        "CodeFormat": "Passing arguments, Value/Reference.<br>Primitives by value. Objects by reference.<br>Primitives arguments cant change their outside value in function. Objects can."
+      },
+      {
+        "Nr": 10,
+        "CodeFormat": "First class functions. Meaning Functions are values and objects.<br>Functions can be stored in variables or properties, passed as arguments to functions, returned from functions, have methods."
+      },
+      {
+        "Nr": 11,
+        "CodeFormat": "Higher order functions. Function that recives function as argument, that returns new function or both."
+      }
+    ]
   }
 ]
