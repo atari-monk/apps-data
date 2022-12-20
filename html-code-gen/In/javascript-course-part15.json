@@ -69,5 +69,31 @@
         "CodeFormat": "Bind can be used to bind function to object in event handlers, becouse this is pointing to DOM element by default in addEvent methods."
       }
     ]
+  },
+  {
+    "Title": "Vid 17, Functions",
+    "Codes": [
+      {
+        "Nr": 15,
+        "CodeFormat": "Immediately Invoked Function Expressions (IIFE); Expression containing function that can be run only once."
+      },
+      {
+        "Nr": 16,
+        "CodeFormat": "Closures. Function allways has a parent scope context when it was created available even if it's poped of stack."
+      }
+    ]
+  },
+  {
+    "Title": "Vid 18, Arrays",
+    "Codes": [
+      {
+        "Nr": 17,
+        "CodeFormat": ""
+      },
+      {
+        "Nr": 18,
+        "CodeFormat": ""
+      }
+    ]
   }
 ]
