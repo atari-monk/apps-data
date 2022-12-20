@@ -88,11 +88,15 @@
     "Codes": [
       {
         "Nr": 17,
-        "CodeFormat": ""
+        "CodeFormat": "slice, splice, reverse, concat, join, at"
       },
       {
         "Nr": 18,
-        "CodeFormat": ""
+        "CodeFormat": "foreach, takes callback. Continue and break dosent work. Arrays, Maps, Sets."
+      },
+      {
+        "Nr": 19,
+        "CodeFormat": "Bankist app*. Challenge 1."
       }
     ]
   }
