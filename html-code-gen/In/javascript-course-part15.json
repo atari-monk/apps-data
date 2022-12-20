@@ -96,7 +96,23 @@
       },
       {
         "Nr": 19,
-        "CodeFormat": "Bankist app*. Challenge 1."
+        "CodeFormat": "Bankist app 1. Challenge 1."
+      },
+      {
+        "Nr": 20,
+        "CodeFormat": "Map creates new array with values calculated by applaying operation on original array values."
+      },
+      {
+        "Nr": 21,
+        "CodeFormat": "Filter creates new array with values that passed condition on original array values."
+      },
+      {
+        "Nr": 22,
+        "CodeFormat": "Reduce computes single value form values in array using some formula."
+      },
+      {
+        "Nr": 23,
+        "CodeFormat": "Bankist app 2. Filter method."
       }
     ]
   }
