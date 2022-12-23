@@ -15,6 +15,10 @@
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\csharp-job-test.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\csharp-job-test.html"
     },
+    "foscam": {
+        "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\foscam.json",
+        "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\foscam.html"
+    },
     "html-beginner-tutorial": {
         "JsonPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\In\\html-beginner-tutorial.json",
         "HtmlPath": "C:\\atari-monk\\Code\\apps-data\\html-code-gen\\Out\\html-beginner-tutorial.html"
