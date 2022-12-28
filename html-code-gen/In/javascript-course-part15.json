@@ -115,5 +115,42 @@
         "CodeFormat": "Bankist app 2. Filter method."
       }
     ]
+  },
+  {
+    "Title": "Vid 21, Arrays",
+    "Codes": [
+      {
+        "Nr": 17,
+        "CodeFormat": "Mutates original array.<br>Add: push (end), unshift (start).<br>Remove: pop (end), shift (start), splice (any).<br>Others: reverse, sort, fill."
+      },
+      {
+        "Nr": 18,
+        "CodeFormat": "New array.<br> map, filter, slice, concat, flat, flatMap."
+      },
+      {
+        "Nr": 19,
+        "CodeFormat": "Array index.<br> indexOf (value), findIndex (condition)."
+      },
+      {
+        "Nr": 20,
+        "CodeFormat": "Array element.<br> find (condition)."
+      },
+      {
+        "Nr": 21,
+        "CodeFormat": "Test Array element.<br> includes (value), some, every (condition)."
+      },
+      {
+        "Nr": 22,
+        "CodeFormat": "Array to new string.<br> join."
+      },
+      {
+        "Nr": 23,
+        "CodeFormat": "Array to value.<br> reduce."
+      },
+      {
+        "Nr": 24,
+        "CodeFormat": "Loop Array.<br> forEach."
+      }
+    ]
   }
 ]
