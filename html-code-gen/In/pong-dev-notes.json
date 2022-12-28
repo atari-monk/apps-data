@@ -58,5 +58,23 @@
         "CodeFormat": "Fix bugs in Player Test. Print player info in text canvas."
       }
     ]
+  },
+  {
+    "Title": "Coding Session 26.12.2022.<br>Try to stop the chaos.",
+    "Codes": [
+      {
+        "Nr": 11,
+        "CodeFormat": "Add ScreenSize class, refactor wall and player tests to use it. Resize smaller for phone."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 28.12.2022.<br>Try to stop the chaos.",
+    "Codes": [
+      {
+        "Nr": 12,
+        "CodeFormat": "Refactor my ball collision left test."
+      }
+    ]
   }
 ]
