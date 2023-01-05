@@ -83,7 +83,99 @@
       {
         "Nr": 13,
         "CodeFormat": "Refactor my ball collision right test."
+      },
+      {
+        "Nr": 14,
+        "CodeFormat": "Refactor rect collision test."
       }
     ]
-  }
+  },
+  {
+    "Title": "Coding Session 29.12.2022.<br>Try to stop the chaos.",
+    "Codes": [
+      {
+        "Nr": 15,
+        "CodeFormat": "Rename test files. Refactor slider."
+      },
+	  {
+        "Nr": 16,
+        "CodeFormat": "Refactor direction."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 30.12.2022.<br>Try to stop the chaos.",
+    "Codes": [
+      {
+        "Nr": 17,
+        "CodeFormat": "Fix coll proto."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 31.12.2022.<br>Try to stop the chaos.",
+    "Codes": [
+      {
+        "Nr": 18,
+        "CodeFormat": "Refactor direction."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 01.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 19,
+        "CodeFormat": "Add rotation formula to direction (translate axis to (0,0) than to (x,y))."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 02.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 20,
+        "CodeFormat": "Add Entity - base class to Player and Ball."
+      },
+	  {
+        "Nr": 21,
+        "CodeFormat": "Add Ball instead of player to direction proto."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 03.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 22,
+        "CodeFormat": "Add ball render to direction.<br>Added EntityV2 with multiple renders (using inheritance).<br>Added BallV2."
+      },
+	  {
+        "Nr": 23,
+        "CodeFormat": "EntityV3, BallV3 with renderers composition instead of inheritance. (Separete renders for graphics and text)"
+      },
+	  {
+        "Nr": 24,
+        "CodeFormat": "ToDo: "
+      },
+    ]
+  },
+  {
+    "Title": "Coding Session 04.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 25,
+        "CodeFormat": "Fix renders in direction proto. Fix ballV3 bug."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 05.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 26,
+        "CodeFormat": "Experiment with direction. ToDo: Create direction class, separete from Ball. To observe ball trajectory compared with it, also to be independant drom ball."
+      }
+    ]
+  },
 ]
