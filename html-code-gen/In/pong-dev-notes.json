@@ -97,7 +97,7 @@
         "Nr": 15,
         "CodeFormat": "Rename test files. Refactor slider."
       },
-	  {
+      {
         "Nr": 16,
         "CodeFormat": "Refactor direction."
       }
@@ -137,7 +137,7 @@
         "Nr": 20,
         "CodeFormat": "Add Entity - base class to Player and Ball."
       },
-	  {
+      {
         "Nr": 21,
         "CodeFormat": "Add Ball instead of player to direction proto."
       }
@@ -150,21 +150,17 @@
         "Nr": 22,
         "CodeFormat": "Add ball render to direction.<br>Added EntityV2 with multiple renders (using inheritance).<br>Added BallV2."
       },
-	  {
+      {
         "Nr": 23,
         "CodeFormat": "EntityV3, BallV3 with renderers composition instead of inheritance. (Separete renders for graphics and text)"
-      },
-	  {
-        "Nr": 24,
-        "CodeFormat": "ToDo: "
-      },
+      }
     ]
   },
   {
     "Title": "Coding Session 04.01.2023.<br>Try to grow.",
     "Codes": [
       {
-        "Nr": 25,
+        "Nr": 24,
         "CodeFormat": "Fix renders in direction proto. Fix ballV3 bug."
       }
     ]
@@ -173,9 +169,44 @@
     "Title": "Coding Session 05.01.2023.<br>Try to grow.",
     "Codes": [
       {
-        "Nr": 26,
+        "Nr": 25,
         "CodeFormat": "Experiment with direction. ToDo: Create direction class, separete from Ball. To observe ball trajectory compared with it, also to be independant drom ball."
       }
     ]
   },
+  {
+    "Title": "Coding Session 06.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 26,
+        "CodeFormat": "Added Bearing class. Ball speed directed in direction of bearing vector. Ball has proper start in direction prototype. It starts toward left or right player, in such a direction as to score point."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 07.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 27,
+        "CodeFormat": "Ball direction is developed in direction prototype. Move it to the Game."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 08.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 28,
+        "CodeFormat": "Fix 0 angle case by makeing angle a litle bigger than 0. Add ball reset. Add reset to Direction, after Start click, reset when ball is off screen."
+      },
+      {
+        "Nr": 29,
+        "CodeFormat": "New gui for laptop version."
+      },
+      {
+        "Nr": 30,
+        "CodeFormat": "TODO: Add Time class."
+      }
+    ]
+  }
 ]

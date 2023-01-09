@@ -235,26 +235,43 @@
       {
         "Nr": 44,
         "CodeFormat": "Prototype chain, root is Object.prototype (__proto___ = null). And others in inheritance hierachy. Till __proto__ pointed to in object of some type."
-      },
+      }
+    ]
+  },
+  {
+    "Title": "Vid 25, Theory, How To Plan A Web Project",
+    "Codes": [
       {
         "Nr": 45,
-        "CodeFormat": ""
+        "CodeFormat": "User Stories => Features => Flowchart => Architecture => Development."
       },
       {
         "Nr": 46,
-        "CodeFormat": ""
+        "CodeFormat": "User story: Description of the app functionality from users perspective.<br>Common format: As a [type of user], i want [an action] so that [a benefit]. Who, What, Why."
       },
       {
         "Nr": 47,
-        "CodeFormat": ""
+        "CodeFormat": "App User Stories.<br>1) Log my running workouts with location, distance, time, pace and steps/minute.<br>2) Log my cycling workouts with location, distance, time, speed and elevation gain.<br>3) See all my workouts at a glance.<br>4) See my workouts on a map.<br>5) See all my workouts when i leave the app and come back later."
       },
       {
         "Nr": 48,
-        "CodeFormat": ""
+        "CodeFormat": "Coresponding Features.<br>1) a) Map where user clicks to add new workout location coordinates.<br>b) Geolocation to display map at current location (user friendly).<br>c) Form to input distance, time, pace, steps/minute.<br>2) Form to input distance, time, speed, elevation gain.<br>3) Display all workouts in a list.<br>4) Display all workouts on the map.<br>5) a) Store workout data in the crowser using local storage API.<br>b) On page load read saved data and display."
       },
       {
         "Nr": 49,
-        "CodeFormat": ""
+        "CodeFormat": "."
+      },
+      {
+        "Nr": 50,
+        "CodeFormat": "."
+      },
+      {
+        "Nr": 51,
+        "CodeFormat": "."
+      },
+      {
+        "Nr": 52,
+        "CodeFormat": "."
       }
     ]
   }
