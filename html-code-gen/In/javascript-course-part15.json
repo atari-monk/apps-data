@@ -256,22 +256,27 @@
       {
         "Nr": 48,
         "CodeFormat": "Coresponding Features.<br>1) a) Map where user clicks to add new workout location coordinates.<br>b) Geolocation to display map at current location (user friendly).<br>c) Form to input distance, time, pace, steps/minute.<br>2) Form to input distance, time, speed, elevation gain.<br>3) Display all workouts in a list.<br>4) Display all workouts on the map.<br>5) a) Store workout data in the crowser using local storage API.<br>b) On page load read saved data and display."
-      },
+      }
+    ]
+  },
+  {
+    "Title": "Vid 26, Async",
+    "Codes": [
       {
         "Nr": 49,
-        "CodeFormat": "."
+        "CodeFormat": "Synchronous code. Most of the code. Executed line by line as written. Each line wait for pervious to finish.<br>Blocking. For example modal alert stops execution until it's cliked. Long running operations block code execution."
       },
       {
         "Nr": 50,
-        "CodeFormat": "."
+        "CodeFormat": "Asynchronous code. Is executed after a task that runs in the 'background' finishes. Non blocking. Execution doesn't wait for an asynchronous task to finish it's work. Callback functions alone dont make code asynchronous. It'a about coordinating behavior of a program over a period of time.<br>Example is img.src = 'x.jpg'. It loads image asynchronously and emits load event with callback function. Geolocation API, AJAX calls use async.<br>EventListener alone, for ex. click is not aync becouse it just waits to fire callback, dosent do nothing in the background."
       },
       {
         "Nr": 51,
-        "CodeFormat": "."
+        "CodeFormat": "AJAX. Asynchronous JavaScript And XML. Comunicate with remote web servers in an asynchronous way. Browser (client), request (get, post, ...), response (data), Web Server (usually web api)."
       },
       {
         "Nr": 52,
-        "CodeFormat": "."
+        "CodeFormat": "API, application programming interface. Pice of software that can be used by another piece of software, in order to allow applications to talk to each other. DOM API, Geolocation API, Own Class API, 'Online API (web API or just API)'<br>'Online API - Application running on a server, that recives request for data, sends it back as a response. JS uses node.js. Third party APIs are everywhere. APIs made web possible. AJAX dosent use xml anymore, json is most popular data format standard. API's: weather, countries, flights, currency conversions, email, sms, maps and just any data."
       }
     ]
   }

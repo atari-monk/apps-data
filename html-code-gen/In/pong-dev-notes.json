@@ -202,9 +202,40 @@
       {
         "Nr": 29,
         "CodeFormat": "New gui for laptop version."
-      },
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 09.01.2023.<br>Try to grow.",
+    "Codes": [
       {
         "Nr": 30,
+        "CodeFormat": "Improve gui/text. Added overlay to read mouse coordinates. Improved points look."
+      },
+	  {
+        "Nr": 31,
+        "CodeFormat": "TODO: Add Time class."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 10.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 32,
+        "CodeFormat": "Improve text. Refactored text drawing in pong only, broken everywhere else."
+      }
+    ]
+  },
+  {
+    "Title": "Coding Session 11.01.2023.<br>Try to grow.",
+    "Codes": [
+      {
+        "Nr": 33,
+        "CodeFormat": "Add points canvas. Add class to handle canvases easier."
+      },
+	  {
+        "Nr": 34,
         "CodeFormat": "TODO: Add Time class."
       }
     ]
